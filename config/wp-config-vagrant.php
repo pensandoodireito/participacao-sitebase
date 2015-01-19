@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         's!rLRNU4!2]e}H^u+zW-(YC<F?x1HC2 B1_[ZZ-p:X)k1%6+&O+Ttss?*<-+p@L ');
+define('SECURE_AUTH_KEY',  'faW;J+> 3.U25blUp2d)}3A}fp>[f@=VuNZ#QLlhDZ4+/sKUg13gdN8Vz%OJm:tM');
+define('LOGGED_IN_KEY',    'Y9#zsWMMNUpd/];C]3>wd3=M9j#f+Vz/< |rb3<|(io}JBY>]XJ`X-(+>=Y=q}iw');
+define('NONCE_KEY',        'q9v4xp!s+*[OO3W=E#)2DV{AUVDsIPJowH{7meIQk_a7}vB?UJ*fv  Mz_eflEcK');
+define('AUTH_SALT',        'q0TRGwz,wq,lgr-|w-+$q3[}Tfn^/0zQRdb;<~WM6Y[UEPy)gD?|Q%#FopKxLNSp');
+define('SECURE_AUTH_SALT', 'D{~R3*RQd3@aL}2kp(1!&I{c xxLR`j-{vxj!TGNIPZik#rR<r/JppAbeB-_yJKf');
+define('LOGGED_IN_SALT',   'Uu0:3Z**!`t4|:3f@x:q2)zM~Y>^Y7THeCOpKst<!3AN?Vwqg>p4q?gJ?fEN|>U!');
+define('NONCE_SALT',       '}Sf&a$vcvJd|h<MK<1<o+.%PS{,cHrTlGKBF(3,QVF(J.BK1x {6Ub1mi)Ae_u!.');
 
 /**#@-*/
 
@@ -70,6 +70,16 @@ $table_prefix  = 'wp_';
  * em seus ambientes de desenvolvimento.
  */
 define('WP_DEBUG', true);
+
+/* Multisite */
+define( 'WP_ALLOW_MULTISITE', true );
+
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', false);
+define('DOMAIN_CURRENT_SITE', 'localhost');
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
 
 /* Isto é tudo, pode parar de editar! :) */
 
