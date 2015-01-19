@@ -23,6 +23,7 @@ service mysql start
 
 rm -r /var/www/public
 ln -s /vagrant/src/ /var/www/public
+chmod 777 /vagrant/src/wp-content/
 
 service apache2 start
 
@@ -32,6 +33,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     # Every Vagrant virtual environment requires a box to build off of.
     config.vm.box = "scotch/box"
+    config.vm.network "forwarded_port", guest: 80, host: 80
     config.vm.network "forwarded_port", guest: 80, host: 8080
     config.vm.network "forwarded_port", guest: 80, host: 4567
 
@@ -40,9 +42,20 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.provision "shell", inline: $updateServices,
             run: "always"
 
-    config.vm.provider :virtualbox do |vb|
-      vb.gui = true
+    config.trigger.after [:provision, :up, :reload] do
+      system('echo "
+        rdr pass on lo0 inet proto tcp from any to 127.0.0.1 port 80 -> 127.0.0.1 port 8080
+        rdr pass on lo0 inet proto tcp from any to 127.0.0.1 port 443 -> 127.0.0.1 port 8443
+        " | sudo pfctl -f - > /dev/null 2>&1; echo "==> Fowarding Ports: 80 -> 8080, 443 -> 8443"')
     end
+
+    config.trigger.after [:halt, :destroy] do
+        system("sudo pfctl -f /etc/pf.conf > /dev/null 2>&1; echo '==> Removing Port Forwarding'")
+    end
+
+    #config.vm.provider :virtualbox do |vb|
+    #  vb.gui = true
+    #end
 end
 
 
