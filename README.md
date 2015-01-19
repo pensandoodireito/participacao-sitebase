@@ -11,7 +11,13 @@ Esse repositório contém os descritores para instalação do ambiente base das 
 
 Para começar, você deverá ter o VirtualBox e o Vagrant instalado na sua máquina. Não que isso seja um condicionante, você também poderá montar o seu ambiente "na mão", mas o Vagrant automatiza muito da montagem do ambiente para você.
 
-Com o Vagrant instalado, clone esse repositório na sua máquina local, e dentro do diretório que acaba de baixar, execute o comando "vagrant up". Isso fará com que o vagrant baixe a "box" que estamos utilizando no projeto e faça o provisionamento dela, ou seja, execute alguns comandos que estão no arquivo Vagrantfile, na raiz do respositório.
+Instale o Vagrant e antes de levantar a box, instale também o plugin triggers que permite executar um comando de sistema antes e depois de levantar a box. Isso porque foram disponibilizados dois comandos para direcionar a porta 80 para o caso de você não ter permissões para mapear portas baixas:
+
+```
+$ vagrant plugin install vagrant-triggers
+```
+
+Com o Vagrant e o plugin instalados, clone esse repositório na sua máquina local, e dentro do diretório que acaba de baixar, execute o comando "vagrant up". Isso fará com que o vagrant baixe a "box" que estamos utilizando no projeto e faça o provisionamento dela, ou seja, execute alguns comandos que estão no arquivo Vagrantfile, na raiz do respositório.
 
 Como estamos usando o WordPress multisites, precisaremos ocupar a porta 80 padrão pra montagem da nossa plataforma. O Vagrant tentará levantar a plataforma nessa porta. Se você já tem um webserver ocupando essa porta, desative-o enquanto estiver trabalhando na plataforma de debates públicos.
 
