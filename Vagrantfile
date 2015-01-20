@@ -35,7 +35,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.box = "scotch/box"
     config.vm.network "forwarded_port", guest: 80, host: 80
     config.vm.network "forwarded_port", guest: 80, host: 8080
-    config.vm.network "forwarded_port", guest: 80, host: 4567
+    # Port de debug do xdebug
+    config.vm.network "forwarded_port", guest: 9000, host: 9000
 
     config.vm.provision "shell", inline: $firstTimeScript
 
