@@ -11,6 +11,10 @@ cd /vagrant && composer update && rm -r /var/www/public && ln -s /vagrant/src /v
 cp /vagrant/config/wp-config-vagrant.php /vagrant/src/wp-config.php
 cp /vagrant/config/htaccess-vagrant /vagrant/src/.htaccess
 
+service apache2 start
+
+service mysql start
+
 mysql --user=root --password=root -h 127.0.0.1 -e 'drop database participacao'
 mysql --user=root --password=root -h 127.0.0.1 -e 'create database participacao'
 mysql --user=root --password=root -h 127.0.0.1 participacao < /vagrant/db/db.sql
