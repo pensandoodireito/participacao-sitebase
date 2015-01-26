@@ -22,7 +22,7 @@ define('DB_NAME', 'participacao');
 define('DB_USER', 'root');
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'root');
 
 /** nome do host do MySQL */
 define('DB_HOST', 'localhost');
