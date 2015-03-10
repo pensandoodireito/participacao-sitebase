@@ -33,6 +33,10 @@
         },
         {
             "type": "git",
+            "url": "https://github.com/pensandoodireito/participacao-tema"
+        },
+        {
+            "type": "git",
             "url": "https://github.com/pensandoodireito/pensandoodireito-network-functions"
         },
         {
@@ -48,8 +52,9 @@
         "php": ">=5.4.0",
         "wordpress": "4.1",
         "pensandoodireito/marcocivil-tema" : "dev-master",
- 	    "pensandoodireito/dadospessoais-tema" : "dev-master",
-	    "pensandoodireito/pensandoodireito-tema" : "dev-master",
+ 	"pensandoodireito/dadospessoais-tema" : "dev-master",
+	"pensandoodireito/pensandoodireito-tema" : "dev-master",
+   	"pensandoodireito/participacao-tema" : "dev-master",
         "pensandoodireito/pensandoodireito-network-functions" : "dev-master",
         "pensandoodireito/wp-side-comments" : "dev-master",
         "ethymos/delibera" : "dev-master",
