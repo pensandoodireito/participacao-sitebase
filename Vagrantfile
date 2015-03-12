@@ -17,7 +17,7 @@ service mysql start
 
 mysql --user=root --password=root -h 127.0.0.1 -e 'drop database participacao'
 mysql --user=root --password=root -h 127.0.0.1 -e 'create database participacao'
-cd /vargrant/db
+cd /vagrant/db
 bunzip2 db.sql.bz2
 mysql --user=root --password=root -h 127.0.0.1 participacao < /vagrant/db/db.sql
 bzip2 -9 db.sql
