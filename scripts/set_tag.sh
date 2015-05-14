@@ -1,3 +1,11 @@
+#!/bin/sh
+
+if [ $# -eq 0  ]; then
+    echo "No arguments supplied, exiting script"
+    echo "Please provide tag name as input parameter"
+    exit 0
+fi
+
 function fetch_settag {
 
 	git fetch --all
