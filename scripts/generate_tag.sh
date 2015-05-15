@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [ $# -eq 0  ]; then
     echo "No arguments supplied, exiting script"
@@ -7,6 +7,7 @@ if [ $# -eq 0  ]; then
 fi
 
 function gerar_tag_master {
+
 	branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')	
 	
 	git stash
@@ -54,5 +55,9 @@ gerar_tag_master pensandoodireito-network-functions $1
 
 cd ../wp-side-comments
 
-gerar_tag_master wp-side-comments $1 
+gerar_tag_master wp-side-comments $1
+
+cd ../delibera
+
+gerar_tag_master delibera $1
 

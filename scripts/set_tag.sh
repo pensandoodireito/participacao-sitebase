@@ -39,5 +39,8 @@ fetch_settag $1
 
 cd ../wp-side-comments
 
-fetch_settag $1 
+fetch_settag $1
 
+cd ../delibera
+
+fetch_settag $1
