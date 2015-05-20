@@ -13,7 +13,7 @@ function delete_tag {
 
 	git tag -d $1
 	
-	git push composer :refs/tags/$1
+	git push git@github.com:pensandoodireito/$2 :refs/tags/$1
 
 	git push --tags	
 
@@ -21,33 +21,33 @@ function delete_tag {
 
 cd ..
 
-delete_tag $1
+delete_tag $1 participacao-sitebase
 
 cd src/wp-content/themes/participacao-tema
 
-delete_tag $1
+delete_tag $1 participacao-tema
 
 cd ../pensandoodireito-tema
 
-delete_tag $1
+delete_tag $1 pensandoodireito-tema
 
 cd ../marcocivil-tema
 
-delete_tag $1
+delete_tag $1 marcocivil-tema
 
 cd ../dadospessoais-tema
 
-delete_tag $1
+delete_tag $1 dadospessoais-tema
 
 cd ../../plugins/pensandoodireito-network-functions
 
-delete_tag $1
+delete_tag $1 pensandoodireito-network-functions
 
 cd ../wp-side-comments
 
-delete_tag $1
+delete_tag $1 wp-side-comments
 
 cd ../delibera
 
-delete_tag $1
+delete_tag $1 delibera
 
