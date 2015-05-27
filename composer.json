@@ -66,6 +66,7 @@
         "wpackagist-plugin/rich-text-tags": "1.7.3",
         "wpackagist-plugin/json-rest-api": "1.1.1",
         "wpackagist-plugin/contact-form-plugin": "3.89",
+        "wpackagist-plugin/email-newsletter": "20.12",
         "fancyguy/webroot-installer": "1.0.0",
         "composer/installers": "~1.0"
     },
