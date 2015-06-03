@@ -33,6 +33,10 @@ cd ../dadospessoais-tema
 
 fetch_settag $1
 
+cd ../debatepublico-tema
+
+fetch_settag $1
+
 cd ../../plugins/pensandoodireito-network-functions
 
 fetch_settag $1

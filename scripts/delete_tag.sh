@@ -39,6 +39,10 @@ cd ../dadospessoais-tema
 
 delete_tag $1 dadospessoais-tema
 
+cd ../debatepublico-tema
+
+delete_tag $1 debatepublico-tema
+
 cd ../../plugins/pensandoodireito-network-functions
 
 delete_tag $1 pensandoodireito-network-functions

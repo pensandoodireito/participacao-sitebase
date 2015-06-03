@@ -49,6 +49,10 @@ cd ../dadospessoais-tema
 
 gerar_tag_master dadospessoais-tema $1
 
+cd ../debatepublico-tema
+
+gerar_tag_master debatepublico-tema $1
+
 cd ../../plugins/pensandoodireito-network-functions
 
 gerar_tag_master pensandoodireito-network-functions $1
