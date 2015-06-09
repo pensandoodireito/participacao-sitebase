@@ -9,6 +9,7 @@ fi
 function fetch_settag {
 
 	git fetch --all
+	git reset HEAD --hard
 	git checkout $1
 
 }
