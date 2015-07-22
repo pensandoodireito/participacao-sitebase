@@ -43,6 +43,10 @@ cd ../debatepublico-tema
 
 delete_tag $1 debatepublico-tema
 
+cd ../intercambio-tema
+
+delete_tag $1 intercambio-tema
+
 cd ../../plugins/pensandoodireito-network-functions
 
 delete_tag $1 pensandoodireito-network-functions
