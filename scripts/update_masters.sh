@@ -39,6 +39,10 @@ cd ../debatepublico-tema
 
 update_master debatepublico-tema $1
 
+cd ../intercambio-tema
+
+update_master intercambio-tema $1
+
 cd ../../plugins/pensandoodireito-network-functions
 
 update_master pensandoodireito-network-functions $1
