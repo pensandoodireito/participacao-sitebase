@@ -1,0 +1,32 @@
+.eemail_caption 
+{
+	padding-bottom:5px;
+	padding-top:5px;
+	/*padding-left:10px;*/
+	padding-right:5px;
+}
+.eemail_msg 
+{
+	padding-top:5px;
+	padding-bottom:5px;
+	/*padding-left:10px;*/
+	color:#F00;
+}
+.eemail_textbox 
+{
+	padding-bottom:10px;
+	/*padding-left:10px;*/
+}
+.eemail_button 
+{
+	padding-bottom:10px;
+	/*padding-left:10px;*/
+}
+.eemail_textbox_class 
+{
+	width:200px;
+}
+.eemail_textbox_button 
+{
+	width:100px;
+}

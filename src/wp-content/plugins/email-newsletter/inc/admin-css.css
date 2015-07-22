@@ -1,0 +1,78 @@
+.register-left{float: left; width:25%;}
+.register-mid{float: left;width:25%;}
+.register-right{float:left;width:35%;}	
+.emailn-left{clear: left; float: left; margin-right: -325px; width: 100%;}
+.alert{
+	background-color: #F9F8F3;
+    border: 2px solid #EBECE8;
+    border-radius: 6px;
+    color: #34495E;
+    font-size: 16px;
+    line-height: 1.53875em;
+    padding: 16px 45px 16px 30px;
+    text-shadow: none;
+}
+.emailn-left-widgets{margin-right: 325px;}
+.emailn-right{clear: right;float: right;width: 300px; margin-right: 15px;}		 
+.emailn-widgetsleft{width: 100%; margin: 0 auto 15px auto; border: 1px solid #DFDFDF; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+.emailn-widgets{width: 285px; margin: 0 auto 15px auto; border: 1px solid #DFDFDF; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+.emailn-widgets h3{
+		font-size: 12px;
+		font-weight: 700;
+		padding: 8px 10px;
+		margin:0;
+		color:#777;
+		background: #F1F1F1;
+		background: -o-linear-gradient(top,#F9F9F9,#ECECEC);
+		background: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);
+		background:	-webkit-gradient(linear, center top, center bottom, from(#F9F9F9), to(#ECECEC));
+		filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#F9F9F9',EndColorStr='#ECECEC');
+		border-bottom: 1px solid #dfdfdf;
+}
+.emailn-widgetsleft h3{
+		font-size: 12px;
+		font-weight: 700;
+		padding: 8px 10px;
+		margin:0;
+		color:#777;
+		background: #F1F1F1;
+		background: -o-linear-gradient(top,#F9F9F9,#ECECEC);
+		background: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);
+		background:	-webkit-gradient(linear, center top, center bottom, from(#F9F9F9), to(#ECECEC));
+		filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#F9F9F9',EndColorStr='#ECECEC');
+		border-bottom: 1px solid #dfdfdf;
+}
+.emailn-widgets .emailn-widgets-desc{
+		font-size: 13px;
+		margin: 15px;
+}
+.emailn-widgetsleft .emailn-widgetsleft-desc{
+		font-size: 13px;
+		margin: 15px;
+}
+.emailn-widgets-desc p{font-size: 13px}
+.emailn-widgets-desc ul{font-size: 13px; list-style: disc outside; margin-left: 12px}
+.emailn-widgets-desc ol{font-size: 13px; list-style: decimal outside}
+.emailn-content {
+	font-size: 13px;
+	color: #000000;
+	text-decoration: underline;
+	background-color:#FFFFFF;
+}
+.emailn-subcontent {
+	font-size: 12px;
+	font-weight:bold;
+	color: #990000;
+	text-decoration: none;
+	background-color:#FFFFFF;
+}
+A.helplink:link, A.helplink:active, A.helplink:visited {
+font-size: 12px;
+font-weight:normal;
+text-decoration: none;
+}
+A.helplink:hover {
+font-size: 12px;
+font-weight:normal;
+text-decoration:none;
+}
