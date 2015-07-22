@@ -50,6 +50,10 @@
         {
             "type": "git",
             "url": "https://github.com/pensandoodireito/debatepublico-tema"
+        },
+        {
+          "type": "git",
+          "url": "https://github.com/pensandoodireito/intercambio-tema"
         }
     ],
     "require": {
@@ -61,12 +65,14 @@
         "pensandoodireito/participacao-tema" : "dev-master",
         "pensandoodireito/debatepublico-tema" : "dev-master",
         "pensandoodireito/pensandoodireito-network-functions" : "dev-master",
+        "pensandoodireito/intercambio-tema" : "dev-master",
         "pensandoodireito/wp-side-comments" : "dev-master",
         "ethymos/delibera" : "dev-master",
         "wpackagist-plugin/rich-text-tags": "1.7.3",
         "wpackagist-plugin/json-rest-api": "1.1.1",
         "wpackagist-plugin/contact-form-plugin": "3.89",
         "wpackagist-plugin/email-newsletter": "20.12",
+        "wpackagist-plugin/social-share-button": "2.1",
         "fancyguy/webroot-installer": "1.0.0",
         "composer/installers": "~1.0"
     },
