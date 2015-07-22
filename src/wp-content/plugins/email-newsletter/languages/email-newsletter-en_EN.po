@@ -1,0 +1,1053 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Email Newsletter 16.0\n"
+"POT-Creation-Date: 2013-11-17 23:51+0800\n"
+"PO-Revision-Date: 2013-11-18 22:41+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../email-newsletter.php:386
+msgid ""
+"<div class=\"updated fade\"><strong><p>Email has been sent successfully.</"
+"p></strong></div>"
+msgstr ""
+"<div class=\"updated fade\"><strong><p>Email has been sent successfully.</"
+"p></strong></div>"
+
+#: ../email-newsletter.php:406
+msgid "Some invalid email address found."
+msgstr "Some invalid email address found."
+
+#: ../email-newsletter.php:488 ../email-newsletter.php:495
+#: ../email-newsletter.php:500 ../email-newsletter.php:663
+msgid "Email Newsletter"
+msgstr "Email Newsletter"
+
+#: ../email-newsletter.php:664
+msgid "General Information"
+msgstr "General Information"
+
+#: ../email-newsletter.php:665 ../pages/welcome-page.php:11
+msgid "Compose Mail"
+msgstr "Compose Mail"
+
+#: ../email-newsletter.php:666
+msgid "Mail to Registered User"
+msgstr "Mail to Registered User"
+
+#: ../email-newsletter.php:667
+msgid "Mail to Commenter"
+msgstr "Mail to Commenter"
+
+#: ../email-newsletter.php:668
+msgid "Mail to Subscriber"
+msgstr "Mail to Subscriber"
+
+#: ../email-newsletter.php:669
+msgid "Mail to Contact Form User"
+msgstr "Mail to Contact Form User"
+
+#: ../email-newsletter.php:670
+msgid "View Subscriber"
+msgstr "View Subscriber"
+
+#: ../email-newsletter.php:671
+msgid "Setup Widget"
+msgstr "Setup Widget"
+
+#: ../email-newsletter.php:672
+msgid "Setup Email"
+msgstr "Setup Email"
+
+#: ../email-newsletter.php:673
+msgid "Setup Unsubscribe"
+msgstr "Setup Unsubscribe"
+
+#: ../email-newsletter.php:674 ../pages/welcome-page.php:29
+msgid "Opt In Setting"
+msgstr "Opt In Setting"
+
+#: ../email-newsletter.php:675 ../pages/welcome-page.php:23
+msgid "Export Users to CSV"
+msgstr "Export Users to CSV"
+
+#: ../email-newsletter.php:676 ../pages/welcome-page.php:25
+msgid "Import Mails"
+msgstr "Import Mails"
+
+#: ../email-newsletter.php:677
+msgid "Send Test Mail"
+msgstr "Send Test Mail"
+
+#: ../compose/compose-email-add.php:25 ../compose/compose-email-edit.php:53
+msgid "Please enter email subject."
+msgstr "Please enter email subject."
+
+#: ../compose/compose-email-add.php:44
+msgid "Email was successfully created."
+msgstr "Email was successfully created."
+
+#: ../compose/compose-email-add.php:68 ../compose/compose-email-edit.php:92
+#: ../subscriber/view-subscriber-add.php:80
+#: ../subscriber/view-subscriber-edit.php:91
+msgid "Click here"
+msgstr "Click here"
+
+#: ../compose/compose-email-add.php:68 ../compose/compose-email-edit.php:93
+#: ../subscriber/view-subscriber-add.php:80
+#: ../subscriber/view-subscriber-edit.php:91
+msgid " to view the details"
+msgstr " to view the details"
+
+#: ../compose/compose-email-add.php:78 ../compose/compose-email-show.php:53
+msgid "Compose email"
+msgstr "Compose email"
+
+#: ../compose/compose-email-add.php:79 ../compose/compose-email-edit.php:106
+#: ../subscriber/view-subscriber-add.php:93
+msgid "Enter email subject."
+msgstr "Enter email subject."
+
+#: ../compose/compose-email-add.php:81 ../compose/compose-email-edit.php:108
+msgid "Please enter your email subject."
+msgstr "Please enter your email subject."
+
+#: ../compose/compose-email-add.php:82 ../compose/compose-email-edit.php:109
+msgid "Enter email content"
+msgstr "Enter email content"
+
+#: ../compose/compose-email-add.php:84 ../compose/compose-email-edit.php:111
+msgid ""
+"This page is where you write, save your email messages. We can add HTML "
+"content."
+msgstr ""
+"This page is where you write, save your email messages. We can add HTML "
+"content."
+
+#: ../compose/compose-email-add.php:85 ../compose/compose-email-edit.php:112
+msgid "Display status"
+msgstr "Display status"
+
+#: ../compose/compose-email-add.php:87 ../compose/compose-email-edit.php:114
+#: ../pages/email-setting.php:71 ../pages/email-setting.php:91
+#: ../subscriber/view-subscriber-edit.php:110
+msgid "Select"
+msgstr "Select"
+
+#: ../compose/compose-email-add.php:91 ../compose/compose-email-edit.php:118
+msgid "Do you want to show this email in Send Mail admin pages?."
+msgstr "Do you want to show this email in Send Mail admin pages?."
+
+#: ../compose/compose-email-add.php:95
+#: ../subscriber/view-subscriber-add.php:111
+msgid "Insert Details"
+msgstr "Insert Details"
+
+#: ../compose/compose-email-add.php:96 ../compose/compose-email-edit.php:123
+#: ../pages/email-setting.php:114 ../pages/optin-setting.php:77
+#: ../pages/unsubscribe-setting.php:72 ../pages/widget-setting.php:92
+#: ../sendemail/sendmail-commenter.php:178
+#: ../sendemail/sendmail-contactform.php:197
+#: ../sendemail/sendmail-registereduser.php:178
+#: ../sendemail/sendmail-subscriber.php:181
+#: ../sendemail/sendmail-testing.php:138
+#: ../subscriber/view-subscriber-add.php:112
+#: ../subscriber/view-subscriber-edit.php:122
+msgid "Cancel"
+msgstr "Cancel"
+
+#: ../compose/compose-email-add.php:97 ../compose/compose-email-edit.php:124
+#: ../compose/compose-email-show.php:114
+#: ../export/export-subscriber-show.php:92 ../pages/email-setting.php:115
+#: ../pages/optin-setting.php:78 ../pages/unsubscribe-setting.php:73
+#: ../pages/widget-setting.php:93 ../sendemail/sendmail-commenter.php:179
+#: ../sendemail/sendmail-contactform.php:198
+#: ../sendemail/sendmail-registereduser.php:179
+#: ../sendemail/sendmail-subscriber.php:182
+#: ../sendemail/sendmail-testing.php:139
+#: ../subscriber/view-subscriber-add.php:113
+#: ../subscriber/view-subscriber-edit.php:123
+#: ../subscriber/view-subscriber-show.php:172
+#: ../subscriber/view-subscriber-show.php:287
+msgid "Help"
+msgstr "Help"
+
+#: ../compose/compose-email-edit.php:17 ../compose/compose-email-show.php:22
+#: ../subscriber/view-subscriber-show.php:26
+msgid "Oops, selected details doesnt exist (1)."
+msgstr "Oops, selected details doesnt exist (1)."
+
+#: ../compose/compose-email-edit.php:73
+#: ../subscriber/view-subscriber-edit.php:75
+msgid "Email was successfully updated."
+msgstr "Email was successfully updated."
+
+#: ../compose/compose-email-edit.php:105
+#: ../subscriber/view-subscriber-edit.php:101
+msgid "Edit email"
+msgstr "Edit email"
+
+#: ../compose/compose-email-edit.php:122
+#: ../subscriber/view-subscriber-edit.php:121
+msgid "Update Details"
+msgstr "Update Details"
+
+#: ../compose/compose-email-show.php:40
+#: ../subscriber/view-subscriber-show.php:46
+msgid "Selected record was successfully deleted."
+msgstr "Selected record was successfully deleted."
+
+#: ../compose/compose-email-show.php:53
+#: ../subscriber/view-subscriber-show.php:131
+msgid "Add New"
+msgstr "Add New"
+
+#: ../compose/compose-email-show.php:66 ../compose/compose-email-show.php:73
+msgid "Email subject"
+msgstr "Email subject"
+
+#: ../compose/compose-email-show.php:67 ../compose/compose-email-show.php:74
+#: ../subscriber/view-subscriber-add.php:97
+#: ../subscriber/view-subscriber-edit.php:108
+#: ../subscriber/view-subscriber-show.php:182
+#: ../subscriber/view-subscriber-show.php:192
+msgid "Status"
+msgstr "Status"
+
+#: ../compose/compose-email-show.php:103
+#: ../subscriber/view-subscriber-show.php:262
+msgid "No records available."
+msgstr "No records available."
+
+#: ../compose/compose-email-show.php:113
+msgid "Compose New Email"
+msgstr "Compose New Email"
+
+#: ../compose/compose-email-show.php:115
+#: ../export/export-subscriber-show.php:90
+#: ../subscriber/view-subscriber-show.php:169
+#: ../subscriber/view-subscriber-show.php:284
+msgid "Add Email"
+msgstr "Add Email"
+
+#: ../compose/compose-email-show.php:116
+#: ../export/export-subscriber-show.php:91
+#: ../subscriber/view-subscriber-show.php:170
+#: ../subscriber/view-subscriber-show.php:285
+msgid "Import Email"
+msgstr "Import Email"
+
+#: ../compose/compose-email-show.php:117
+#: ../subscriber/view-subscriber-show.php:171
+#: ../subscriber/view-subscriber-show.php:286
+msgid "Export Email (CSV)"
+msgstr "Export Email (CSV)"
+
+#: ../double-optin/double-optin.php:24 ../unsubscribe/unsubscribe.php:24
+msgid "Oops.. Unexpected error occurred. Please try again."
+msgstr "Oops.. Unexpected error occurred. Please try again."
+
+#: ../double-optin/double-optin.php:43
+msgid ""
+"Oops.. Your email address is not in our newsletter list. Please try again."
+msgstr ""
+"Oops.. Your email address is not in our newsletter list. Please try again."
+
+#: ../double-optin/double-optin.php:74 ../unsubscribe/unsubscribe.php:57
+msgid "You have been successfully unsubscribed."
+msgstr "You have been successfully unsubscribed."
+
+#: ../export/export-setting.php:38
+msgid "Unexpected url submit has been detected 4"
+msgstr "Unexpected url submit has been detected 4"
+
+#: ../export/export-setting.php:44
+msgid "Unexpected url submit has been detected 1"
+msgstr "Unexpected url submit has been detected 1"
+
+#: ../export/export-setting.php:49
+msgid "Unexpected url submit has been detected 2"
+msgstr "Unexpected url submit has been detected 2"
+
+#: ../export/export-setting.php:54
+msgid "Unexpected url submit has been detected 3"
+msgstr "Unexpected url submit has been detected 3"
+
+#: ../export/export-subscriber-show.php:30
+msgid "Export email address in csv format"
+msgstr "Export email address in csv format"
+
+#: ../export/export-subscriber-show.php:37
+#: ../export/export-subscriber-show.php:46
+#: ../subscriber/view-subscriber-show.php:180
+#: ../subscriber/view-subscriber-show.php:190
+msgid "Sno"
+msgstr "Sno"
+
+#: ../export/export-subscriber-show.php:38
+#: ../export/export-subscriber-show.php:47
+msgid "Export option"
+msgstr "Export option"
+
+#: ../export/export-subscriber-show.php:39
+#: ../export/export-subscriber-show.php:48
+msgid "Total email"
+msgstr "Total email"
+
+#: ../export/export-subscriber-show.php:40
+#: ../export/export-subscriber-show.php:49
+#: ../subscriber/view-subscriber-show.php:184
+#: ../subscriber/view-subscriber-show.php:194
+msgid "Action"
+msgstr "Action"
+
+#: ../export/export-subscriber-show.php:56
+msgid "Subscriber email address"
+msgstr "Subscriber email address"
+
+#: ../export/export-subscriber-show.php:58
+#: ../export/export-subscriber-show.php:65
+#: ../export/export-subscriber-show.php:72
+#: ../export/export-subscriber-show.php:81
+msgid "Click to export csv"
+msgstr "Click to export csv"
+
+#: ../export/export-subscriber-show.php:63
+msgid "Registered email address"
+msgstr "Registered email address"
+
+#: ../export/export-subscriber-show.php:70
+msgid "Comments author email address"
+msgstr "Comments author email address"
+
+#: ../export/export-subscriber-show.php:77
+msgid "Contact form email address"
+msgstr "Contact form email address"
+
+#: ../pages/email-setting.php:7
+msgid "Email setting"
+msgstr "Email setting"
+
+#: ../pages/email-setting.php:55 ../pages/optin-setting.php:37
+#: ../pages/unsubscribe-setting.php:36 ../pages/widget-setting.php:46
+msgid "Details successfully updated."
+msgstr "Details successfully updated."
+
+#: ../pages/email-setting.php:61
+msgid "From email name"
+msgstr "From email name"
+
+#: ../pages/email-setting.php:63
+msgid "Please enter your from email name."
+msgstr "Please enter your from email name."
+
+#: ../pages/email-setting.php:65
+msgid "From email address"
+msgstr "From email address"
+
+#: ../pages/email-setting.php:67
+msgid "Please enter your from email address."
+msgstr "Please enter your from email address."
+
+#: ../pages/email-setting.php:69
+msgid "Send auto email to admin"
+msgstr "Send auto email to admin"
+
+#: ../pages/email-setting.php:75
+msgid "Send email to admin when new user subscribed."
+msgstr "Send email to admin when new user subscribed."
+
+#: ../pages/email-setting.php:77
+msgid "Admin email address"
+msgstr "Admin email address"
+
+#: ../pages/email-setting.php:79
+msgid "Please enter admin email address to received email."
+msgstr "Please enter admin email address to received email."
+
+#: ../pages/email-setting.php:81
+msgid "Admin email subject"
+msgstr "Admin email subject"
+
+#: ../pages/email-setting.php:83
+msgid "Please enter admin email subject."
+msgstr "Please enter admin email subject."
+
+#: ../pages/email-setting.php:85
+msgid "Admin email content"
+msgstr "Admin email content"
+
+#: ../pages/email-setting.php:87
+msgid "Please enter admin email content. (Keyword: ##USEREMAIL##)"
+msgstr "Please enter admin email content. (Keyword: ##USEREMAIL##)"
+
+#: ../pages/email-setting.php:89
+msgid "Send auto email to subscriber"
+msgstr "Send auto email to subscriber"
+
+#: ../pages/email-setting.php:95
+msgid "Send welcome email to subscriber."
+msgstr "Send welcome email to subscriber."
+
+#: ../pages/email-setting.php:97
+msgid "Subscriber email subject"
+msgstr "Subscriber email subject"
+
+#: ../pages/email-setting.php:99
+msgid "Please enter Subscriber email subject."
+msgstr "Please enter Subscriber email subject."
+
+#: ../pages/email-setting.php:101
+msgid "Subscriber email content"
+msgstr "Subscriber email content"
+
+#: ../pages/email-setting.php:103 ../pages/email-setting.php:110
+msgid "Please enter subscriber welcome email content."
+msgstr "Please enter subscriber welcome email content."
+
+#: ../pages/email-setting.php:105
+msgid "Email type"
+msgstr "Email type"
+
+#: ../pages/email-setting.php:113 ../pages/optin-setting.php:76
+#: ../pages/unsubscribe-setting.php:71 ../pages/widget-setting.php:91
+msgid "Update Settings"
+msgstr "Update Settings"
+
+#: ../pages/optin-setting.php:7
+msgid "Opt In Page Configuration"
+msgstr "Opt In Page Configuration"
+
+#: ../pages/optin-setting.php:44
+msgid "Opt-In option"
+msgstr "Opt-In option"
+
+#: ../pages/optin-setting.php:49
+msgid ""
+"Double Opt In, means subscribers need to confirm their email address by an "
+"activation link sent them on a activation email message. <br />Single Opt "
+"In, means subscribers do not need to confirm their email address."
+msgstr ""
+"Double Opt In, means subscribers need to confirm their email address by an "
+"activation link sent them on a activation email message. <br />Single Opt "
+"In, means subscribers do not need to confirm their email address."
+
+#: ../pages/optin-setting.php:51
+msgid "Opt-In email subject"
+msgstr "Opt-In email subject"
+
+#: ../pages/optin-setting.php:53
+msgid "Please enter Opt-In email subject"
+msgstr "Please enter Opt-In email subject"
+
+#: ../pages/optin-setting.php:55
+msgid "Opt-In email content"
+msgstr "Opt-In email content"
+
+#: ../pages/optin-setting.php:57
+msgid "Please enter Opt-In email content. ##LINK## is a key word."
+msgstr "Please enter Opt-In email content. ##LINK## is a key word."
+
+#: ../pages/optin-setting.php:59
+msgid "Opt-In link"
+msgstr "Opt-In link"
+
+#: ../pages/optin-setting.php:61
+msgid "Please enter your Opt-In link."
+msgstr "Please enter your Opt-In link."
+
+#: ../pages/optin-setting.php:63
+msgid "Static message 1"
+msgstr "Static message 1"
+
+#: ../pages/optin-setting.php:65
+msgid "Static message after Double Opt In confirmation."
+msgstr "Static message after Double Opt In confirmation."
+
+#: ../pages/optin-setting.php:67
+msgid "Static message 2"
+msgstr "Static message 2"
+
+#: ../pages/optin-setting.php:69
+msgid "Static message in Double Opt In confirmation page, if no email found."
+msgstr "Static message in Double Opt In confirmation page, if no email found."
+
+#: ../pages/optin-setting.php:71
+msgid "Static message 6"
+msgstr "Static message 6"
+
+#: ../pages/optin-setting.php:73 ../pages/unsubscribe-setting.php:68
+msgid "Static message for unexpected error."
+msgstr "Static message for unexpected error."
+
+#: ../pages/unsubscribe-setting.php:7
+msgid "Unsubscribe link setting"
+msgstr "Unsubscribe link setting"
+
+#: ../pages/unsubscribe-setting.php:43
+msgid "Unsubscribe Option"
+msgstr "Unsubscribe Option"
+
+#: ../pages/unsubscribe-setting.php:45
+msgid "Yes, Add an unsubscribe link in email newletter."
+msgstr "Yes, Add an unsubscribe link in email newletter."
+
+#: ../pages/unsubscribe-setting.php:46
+msgid "No, Dont want unsubscribe link in email newletter."
+msgstr "No, Dont want unsubscribe link in email newletter."
+
+#: ../pages/unsubscribe-setting.php:48
+msgid "Please enter your option from the list."
+msgstr "Please enter your option from the list."
+
+#: ../pages/unsubscribe-setting.php:50
+msgid "Unsubscribe text"
+msgstr "Unsubscribe text"
+
+#: ../pages/unsubscribe-setting.php:52
+msgid "Please enter your unsubscribe text. ##LINK## is a keyword."
+msgstr "Please enter your unsubscribe text. ##LINK## is a keyword."
+
+#: ../pages/unsubscribe-setting.php:54
+msgid "Unsubscribe link"
+msgstr "Unsubscribe link"
+
+#: ../pages/unsubscribe-setting.php:56
+msgid "Please enter your unsubscribe link."
+msgstr "Please enter your unsubscribe link."
+
+#: ../pages/unsubscribe-setting.php:58
+msgid "Static message 3"
+msgstr "Static message 3"
+
+#: ../pages/unsubscribe-setting.php:60
+msgid "Static message in unsubscribe page."
+msgstr "Static message in unsubscribe page."
+
+#: ../pages/unsubscribe-setting.php:62
+msgid "Static message 4"
+msgstr "Static message 4"
+
+#: ../pages/unsubscribe-setting.php:64
+msgid "Static message in unsubscribe page, if no email found."
+msgstr "Static message in unsubscribe page, if no email found."
+
+#: ../pages/unsubscribe-setting.php:66
+msgid "Static message 5"
+msgstr "Static message 5"
+
+#: ../pages/welcome-page.php:10
+msgid "Welcome to Email Newsletter Plugin"
+msgstr "Welcome to Email Newsletter Plugin"
+
+#: ../pages/welcome-page.php:12
+msgid ""
+"This is the first step to take with this plugin. Before sending mail to a "
+"user, you first need to compose the mail message, using this page. Once you "
+"have composed your mail, it will display automatically on the send mail page."
+msgstr ""
+"This is the first step to take with this plugin. Before sending mail to a "
+"user, you first need to compose the mail message, using this page. Once you "
+"have composed your mail, it will display automatically on the send mail page."
+
+#: ../pages/welcome-page.php:13
+msgid "Send Mail to a Registered User"
+msgstr "Send Mail to a Registered User"
+
+#: ../pages/welcome-page.php:14
+msgid ""
+"Use this page for sending mails to registered users. On this page you find "
+"the email addresses of all registered users listed with a check box option. "
+"If you dont want to mail any particular user(s), you can uncheck the email"
+"(s) on this list. After you selected the users, click on the email subject "
+"you first created and press the Send Mail button."
+msgstr ""
+"Use this page for sending mails to registered users. On this page you find "
+"the email addresses of all registered users listed with a check box option. "
+"If you dont want to mail any particular user(s), you can uncheck the email"
+"(s) on this list. After you selected the users, click on the email subject "
+"you first created and press the Send Mail button."
+
+#: ../pages/welcome-page.php:15
+msgid "Send Mail to Commenters"
+msgstr "Send Mail to Commenters"
+
+#: ../pages/welcome-page.php:16
+msgid ""
+"Use this page for sending mails to commenters. On this page you find the "
+"email addresses of all commenters listed with a check box option. If you "
+"dont want to mail any particular commenter(s), you can uncheck the email(s) "
+"on this list. After you selected the commenters, click on the email subject "
+"you first created and press the Send Mail button."
+msgstr ""
+"Use this page for sending mails to commenters. On this page you find the "
+"email addresses of all commenters listed with a check box option. If you "
+"dont want to mail any particular commenter(s), you can uncheck the email(s) "
+"on this list. After you selected the commenters, click on the email subject "
+"you first created and press the Send Mail button."
+
+#: ../pages/welcome-page.php:17
+msgid "Send Mail to Subscribed Users"
+msgstr "Send Mail to Subscribed Users"
+
+#: ../pages/welcome-page.php:18
+msgid ""
+"This plugin offers a new option. Its a widget that you can drag to your "
+"sidebar. It serves as a subscribe option for your site visitors. Use this "
+"page to send mails to visitors who subscribed to your newsletter through the "
+"widget. You find them all listed with a check box option. If you dont want "
+"to mail any particular subscriber(s), you can uncheck the email(s) on this "
+"list. After you selected the subscribers, click on the email subject you "
+"first created and press the Send Mail button."
+msgstr ""
+"This plugin offers a new option. Its a widget that you can drag to your "
+"sidebar. It serves as a subscribe option for your site visitors. Use this "
+"page to send mails to visitors who subscribed to your newsletter through the "
+"widget. You find them all listed with a check box option. If you dont want "
+"to mail any particular subscriber(s), you can uncheck the email(s) on this "
+"list. After you selected the subscribers, click on the email subject you "
+"first created and press the Send Mail button."
+
+#: ../pages/welcome-page.php:19
+msgid "You can see all subscribers on the View Subscriber page."
+msgstr "You can see all subscribers on the View Subscriber page."
+
+#: ../pages/welcome-page.php:20
+msgid "Send Mail to Users who Contacted You"
+msgstr "Send Mail to Users who Contacted You"
+
+#: ../pages/welcome-page.php:21
+msgid ""
+"This plugin now comes with a Simple Contact Form. I thought it would be "
+"useful to combine this feature with the newsletter plugin. After installing "
+"the contact form, your site visitors may contact you using this form. Those "
+"users then are visible to you on this page, and you can email them by using "
+"the same procedure as outlined before."
+msgstr ""
+"This plugin now comes with a Simple Contact Form. I thought it would be "
+"useful to combine this feature with the newsletter plugin. After installing "
+"the contact form, your site visitors may contact you using this form. Those "
+"users then are visible to you on this page, and you can email them by using "
+"the same procedure as outlined before."
+
+#: ../pages/welcome-page.php:22
+msgid ""
+"Install the plugin Simple Contact Form on your site. If it is not useful to "
+"you, omit this menu."
+msgstr ""
+"Install the plugin Simple Contact Form on your site. If it is not useful to "
+"you, omit this menu."
+
+#: ../pages/welcome-page.php:24
+msgid ""
+"This is a new option that allows you to download all users into a formatted "
+"text file (CSV) for later import on another site of yours, or for using "
+"particular emails of it in your ordinary mail client, or for migrating your "
+"Wordpress site to another server."
+msgstr ""
+"This is a new option that allows you to download all users into a formatted "
+"text file (CSV) for later import on another site of yours, or for using "
+"particular emails of it in your ordinary mail client, or for migrating your "
+"Wordpress site to another server."
+
+#: ../pages/welcome-page.php:26
+msgid ""
+"This new option allows you to import mail addresses into your subscription "
+"list."
+msgstr ""
+"This new option allows you to import mail addresses into your subscription "
+"list."
+
+#: ../pages/welcome-page.php:27
+msgid "Setup Unsubscribe Link"
+msgstr "Setup Unsubscribe Link"
+
+#: ../pages/welcome-page.php:28
+msgid ""
+"This option is important for your mail receivers being able to unsubscribe "
+"from your newsletter. There will be a link in each newsletter that mail "
+"receivers can click for unsubscribing from your mailing list."
+msgstr ""
+"This option is important for your mail receivers being able to unsubscribe "
+"from your newsletter. There will be a link in each newsletter that mail "
+"receivers can click for unsubscribing from your mailing list."
+
+#: ../pages/welcome-page.php:30
+msgid ""
+"Opt-in is a term used in email marketing to confirm the email. Double Opt "
+"In, means subscribers need to confirm their email address by an activation "
+"link sent them on a activation email message. Single Opt In, means "
+"subscribers do not need to confirm their email address."
+msgstr ""
+"Opt-in is a term used in email marketing to confirm the email. Double Opt "
+"In, means subscribers need to confirm their email address by an activation "
+"link sent them on a activation email message. Single Opt In, means "
+"subscribers do not need to confirm their email address."
+
+#: ../pages/widget-setting.php:7
+msgid "Widget setting"
+msgstr "Widget setting"
+
+#: ../pages/widget-setting.php:54
+msgid "Title"
+msgstr "Title"
+
+#: ../pages/widget-setting.php:56
+msgid "Please enter widget title."
+msgstr "Please enter widget title."
+
+#: ../pages/widget-setting.php:58
+msgid "Display option (Home page)"
+msgstr "Display option (Home page)"
+
+#: ../pages/widget-setting.php:60
+msgid "Display widget on website home pages. Enter YES (or) NO"
+msgstr "Display widget on website home pages. Enter YES (or) NO"
+
+#: ../pages/widget-setting.php:62
+msgid "Display option (Posts)"
+msgstr "Display option (Posts)"
+
+#: ../pages/widget-setting.php:64
+msgid "Display widget on all posts. Enter YES (or) NO"
+msgstr "Display widget on all posts. Enter YES (or) NO"
+
+#: ../pages/widget-setting.php:66
+msgid "Display option (Pages)"
+msgstr "Display option (Pages)"
+
+#: ../pages/widget-setting.php:68
+msgid "Display widget on all pages. Enter YES (or) NO"
+msgstr "Display widget on all pages. Enter YES (or) NO"
+
+#: ../pages/widget-setting.php:70
+msgid "Display option (Search page)"
+msgstr "Display option (Search page)"
+
+#: ../pages/widget-setting.php:72
+msgid "Display widget on all search result pages. Enter YES (or) NO"
+msgstr "Display widget on all search result pages. Enter YES (or) NO"
+
+#: ../pages/widget-setting.php:74
+msgid "Display option (Archives page)"
+msgstr "Display option (Archives page)"
+
+#: ../pages/widget-setting.php:76
+msgid "Display widget on all archive pages. Enter YES (or) NO"
+msgstr "Display widget on all archive pages. Enter YES (or) NO"
+
+#: ../pages/widget-setting.php:78
+msgid "Short description"
+msgstr "Short description"
+
+#: ../pages/widget-setting.php:80
+msgid "Please enter short description about your widget."
+msgstr "Please enter short description about your widget."
+
+#: ../pages/widget-setting.php:82
+msgid "TextBox caption"
+msgstr "TextBox caption"
+
+#: ../pages/widget-setting.php:84
+msgid "Please enter text to show within email text box."
+msgstr "Please enter text to show within email text box."
+
+#: ../pages/widget-setting.php:86
+msgid "Button caption"
+msgstr "Button caption"
+
+#: ../pages/widget-setting.php:88
+msgid "Please enter text to shown on the widget submit button."
+msgstr "Please enter text to shown on the widget submit button."
+
+#: ../sendemail/sendmail-commenter.php:16
+#: ../sendemail/sendmail-contactform.php:35
+#: ../sendemail/sendmail-registereduser.php:16
+#: ../sendemail/sendmail-subscriber.php:16
+#: ../sendemail/sendmail-testing.php:25
+msgid "Please select email subject."
+msgstr "Please select email subject."
+
+#: ../sendemail/sendmail-commenter.php:22
+#: ../sendemail/sendmail-contactform.php:41
+#: ../sendemail/sendmail-registereduser.php:22
+#: ../sendemail/sendmail-subscriber.php:23
+msgid "Please select email address."
+msgstr "Please select email address."
+
+#: ../sendemail/sendmail-commenter.php:40
+#: ../sendemail/sendmail-contactform.php:59
+#: ../sendemail/sendmail-registereduser.php:40
+#: ../sendemail/sendmail-subscriber.php:41
+msgid "Oops, selected details doesnt exist"
+msgstr "Oops, selected details doesnt exist"
+
+#: ../sendemail/sendmail-commenter.php:64
+msgid "(Send email to commenter)"
+msgstr "(Send email to commenter)"
+
+#: ../sendemail/sendmail-commenter.php:65
+msgid "Select email address from commentent authors list:"
+msgstr "Select email address from commentent authors list:"
+
+#: ../sendemail/sendmail-commenter.php:145
+#: ../sendemail/sendmail-contactform.php:164
+#: ../sendemail/sendmail-registereduser.php:145
+#: ../sendemail/sendmail-subscriber.php:148
+msgid ""
+" - No email address available for this search result. Please click above "
+"buttons to search."
+msgstr ""
+" - No email address available for this search result. Please click above "
+"buttons to search."
+
+#: ../sendemail/sendmail-commenter.php:149
+#: ../sendemail/sendmail-contactform.php:168
+#: ../sendemail/sendmail-registereduser.php:149
+#: ../sendemail/sendmail-subscriber.php:152
+msgid "Total emails:"
+msgstr "Total emails:"
+
+#: ../sendemail/sendmail-commenter.php:169
+#: ../sendemail/sendmail-contactform.php:188
+#: ../sendemail/sendmail-registereduser.php:169
+#: ../sendemail/sendmail-subscriber.php:172
+#: ../sendemail/sendmail-testing.php:115
+msgid "Select email subject"
+msgstr "Select email subject"
+
+#: ../sendemail/sendmail-commenter.php:172
+#: ../sendemail/sendmail-contactform.php:191
+#: ../sendemail/sendmail-registereduser.php:172
+#: ../sendemail/sendmail-subscriber.php:175
+#: ../sendemail/sendmail-testing.php:118
+msgid " == Select Email Subject == "
+msgstr " == Select Email Subject == "
+
+#: ../sendemail/sendmail-commenter.php:177
+#: ../sendemail/sendmail-contactform.php:196
+#: ../sendemail/sendmail-registereduser.php:177
+#: ../sendemail/sendmail-subscriber.php:180
+#: ../sendemail/sendmail-testing.php:137
+msgid "Send Email"
+msgstr "Send Email"
+
+#: ../sendemail/sendmail-contactform.php:9
+msgid "(Send email to users who contacted you)"
+msgstr "(Send email to users who contacted you)"
+
+#: ../sendemail/sendmail-contactform.php:83
+msgid "(Send email to simple contact form users)"
+msgstr "(Send email to simple contact form users)"
+
+#: ../sendemail/sendmail-contactform.php:84
+msgid "Select email address from simple contact form users list:"
+msgstr "Select email address from simple contact form users list:"
+
+#: ../sendemail/sendmail-registereduser.php:64
+msgid "(Send email to registered users)"
+msgstr "(Send email to registered users)"
+
+#: ../sendemail/sendmail-registereduser.php:65
+msgid "Select email address from registered users list:"
+msgstr "Select email address from registered users list:"
+
+#: ../sendemail/sendmail-subscriber.php:64
+msgid "(Send email to subscribed users)"
+msgstr "(Send email to subscribed users)"
+
+#: ../sendemail/sendmail-subscriber.php:65
+msgid "Select email address from subscribed users list:"
+msgstr "Select email address from subscribed users list:"
+
+#: ../sendemail/sendmail-testing.php:35
+msgid "Please provide a valid email address."
+msgstr "Please provide a valid email address."
+
+#: ../sendemail/sendmail-testing.php:43
+msgid "Please provide a valid email address (1)."
+msgstr "Please provide a valid email address (1)."
+
+#: ../sendemail/sendmail-testing.php:56
+msgid "Please provide a valid email address (2)."
+msgstr "Please provide a valid email address (2)."
+
+#: ../sendemail/sendmail-testing.php:69
+msgid "Please provide a valid email address (3)."
+msgstr "Please provide a valid email address (3)."
+
+#: ../sendemail/sendmail-testing.php:99
+msgid "(Send Test Mail)"
+msgstr "(Send Test Mail)"
+
+#: ../sendemail/sendmail-testing.php:122
+msgid "Enter email address"
+msgstr "Enter email address"
+
+#: ../sendemail/sendmail-testing.php:124
+msgid "Email address 1"
+msgstr "Email address 1"
+
+#: ../sendemail/sendmail-testing.php:128
+msgid "Email address 2"
+msgstr "Email address 2"
+
+#: ../sendemail/sendmail-testing.php:132
+msgid "Email address 3"
+msgstr "Email address 3"
+
+#: ../sendemail/steps.php:2
+msgid "Steps to Send Email"
+msgstr "Steps to Send Email"
+
+#: ../sendemail/steps.php:4
+msgid "Select email address from the list."
+msgstr "Select email address from the list."
+
+#: ../sendemail/steps.php:5
+msgid "Select available email subject."
+msgstr "Select available email subject."
+
+#: ../sendemail/steps.php:6
+msgid "Click send email button."
+msgstr "Click send email button."
+
+#: ../subscriber/view-subscriber-add.php:23
+#: ../subscriber/view-subscriber-edit.php:54
+#: ../subscriber/view-subscriber-edit.php:104
+msgid "Please enter email address."
+msgstr "Please enter email address."
+
+#: ../subscriber/view-subscriber-add.php:54
+msgid " Email(s) was successfully imported."
+msgstr " Email(s) was successfully imported."
+
+#: ../subscriber/view-subscriber-add.php:55
+msgid " Email(s) are already in our database."
+msgstr " Email(s) are already in our database."
+
+#: ../subscriber/view-subscriber-add.php:91
+msgid "Add email/Import email"
+msgstr "Add email/Import email"
+
+#: ../subscriber/view-subscriber-add.php:95
+msgid "Enter the email address with comma separated (No comma at the end)."
+msgstr "Enter the email address with comma separated (No comma at the end)."
+
+#: ../subscriber/view-subscriber-add.php:105
+#: ../subscriber/view-subscriber-edit.php:117
+msgid "Unsubscribed, Not confirmed emails not display in send mail page."
+msgstr "Unsubscribed, Not confirmed emails not display in send mail page."
+
+#: ../subscriber/view-subscriber-add.php:118
+msgid "Note"
+msgstr "Note"
+
+#: ../subscriber/view-subscriber-add.php:120
+msgid "Enter your email address with comma separated."
+msgstr "Enter your email address with comma separated."
+
+#: ../subscriber/view-subscriber-add.php:121
+msgid "Enter maximum 25 email address at one time."
+msgstr "Enter maximum 25 email address at one time."
+
+#: ../subscriber/view-subscriber-add.php:122
+msgid "Comma not allowed at the end of the string."
+msgstr "Comma not allowed at the end of the string."
+
+#: ../subscriber/view-subscriber-add.php:124
+msgid "Wrong format"
+msgstr "Wrong format"
+
+#: ../subscriber/view-subscriber-add.php:126
+msgid "(Comma at the end)"
+msgstr "(Comma at the end)"
+
+#: ../subscriber/view-subscriber-add.php:127
+msgid "(Two comma)"
+msgstr "(Two comma)"
+
+#: ../subscriber/view-subscriber-add.php:129
+msgid "Correct format"
+msgstr "Correct format"
+
+#: ../subscriber/view-subscriber-edit.php:18
+msgid "Oops, selected details doesnt exist."
+msgstr "Oops, selected details doesnt exist."
+
+#: ../subscriber/view-subscriber-edit.php:102
+msgid "Enter email address."
+msgstr "Enter email address."
+
+#: ../subscriber/view-subscriber-edit.php:105
+msgid "Enter name."
+msgstr "Enter name."
+
+#: ../subscriber/view-subscriber-edit.php:107
+msgid "Please enter email name."
+msgstr "Please enter email name."
+
+#: ../subscriber/view-subscriber-show.php:54
+#: ../subscriber/view-subscriber-show.php:98
+msgid "Confirmation email resent successfully."
+msgstr "Confirmation email resent successfully."
+
+#: ../subscriber/view-subscriber-show.php:77
+msgid " Selected record was successfully deleted."
+msgstr " Selected record was successfully deleted."
+
+#: ../subscriber/view-subscriber-show.php:83
+#: ../subscriber/view-subscriber-show.php:109
+msgid "Oops, No record was selected."
+msgstr "Oops, No record was selected."
+
+#: ../subscriber/view-subscriber-show.php:103
+msgid " Confirmation emails resent successfully."
+msgstr " Confirmation emails resent successfully."
+
+#: ../subscriber/view-subscriber-show.php:131
+msgid "View subscriber"
+msgstr "View subscriber"
+
+#: ../subscriber/view-subscriber-show.php:181
+#: ../subscriber/view-subscriber-show.php:191
+msgid "Email address"
+msgstr "Email address"
+
+#: ../subscriber/view-subscriber-show.php:183
+#: ../subscriber/view-subscriber-show.php:193
+msgid "DB id"
+msgstr "DB id"
+
+#: ../subscriber/view-subscriber-show.php:241
+msgid "Edit"
+msgstr "Edit"
+
+#: ../subscriber/view-subscriber-show.php:242
+#: ../subscriber/view-subscriber-show.php:278
+msgid "Delete"
+msgstr "Delete"
+
+#: ../subscriber/view-subscriber-show.php:247
+#: ../subscriber/view-subscriber-show.php:279
+msgid "Resend Confirmation"
+msgstr "Resend Confirmation"
+
+#: ../subscriber/view-subscriber-show.php:277
+msgid "Bulk Actions"
+msgstr "Bulk Actions"
+
+#: ../unsubscribe/unsubscribe.php:43
+msgid ""
+"Oops.. We are getting some technical error. Please try again or contact "
+"admin."
+msgstr ""
+"Oops.. We are getting some technical error. Please try again or contact "
+"admin."
