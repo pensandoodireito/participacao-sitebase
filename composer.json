@@ -73,6 +73,7 @@
         "wpackagist-plugin/contact-form-plugin": "3.89",
         "wpackagist-plugin/sendpress": "1.1.7.21",
         "wpackagist-plugin/social-share-button": "2.1",
+        "wpackagist-plugin/events-manager": "5.5.7.1",
         "fancyguy/webroot-installer": "1.0.0",
         "composer/installers": "~1.0"
     },
