@@ -1,0 +1,81 @@
+/**
+ * Styles for form
+ */
+.cntctfrm_contact_form * {
+	text-align: left !important;
+	line-height: normal !important;
+}
+.cntctfrm_contact_form p,
+.widget .cntctfrm_contact_form p {
+	margin: 0 !important;
+}
+.cntctfrm_contact_form .cptch_block label + br,
+.cntctfrm_contact_form .cptch_block span + br,
+.cntctfrm_contact_form .cptchpr_block label + br,
+.cntctfrm_contact_form .cptchpr_block span + br {
+	display: block !important;
+}
+.cntctfrm_contact_form .cptch_block br,
+.cntctfrm_contact_form .cptchpr_block br {
+	display: none;
+}
+.cntctfrm_input_captcha .cptch_block ~ .gglcptch,
+.cntctfrm_input_captcha .cptchpr_block ~ .gglcptch {
+	padding: 20px 0 0;
+}
+.cntctfrm_contact_form .gglcptch #recaptcha_widget_div {
+	width: 320px !important;
+}
+.cntctfrm_label,
+.cntctfrm_input,
+.cntctfrm_select,
+.cntctfrm_checkbox {
+   max-width: 320px;
+}
+.cntctfrm_input_captcha {
+	margin: 20px 0;
+}
+.cntctfrm_contact_form input[type="text"],
+.cntctfrm_contact_form input[type="file"],
+.cntctfrm_contact_form select,
+.cntctfrm_contact_form textarea,
+.widget .cntctfrm_contact_form input[type="text"],
+.widget .cntctfrm_contact_form input[type="file"],
+.widget .cntctfrm_contact_form select,
+.widget .cntctfrm_contact_form textarea {
+	width: 100%;
+	margin: 0 !important;
+	box-sizing: border-box;
+}
+.cntctfrm_contact_attachment_extensions {
+	font-size: 10px !important;
+}
+.cntctfrm_input_submit {
+	padding: 10px 0 0;
+}
+.cntctfrm_contact_form input.cntctfrm_contact_submit {
+	cursor: pointer !important;
+	text-align: center !important;
+	margin-bottom: 10px !important;
+}
+.cntctfrm_label:first-child {
+	padding: 0;
+}
+.cntctfrm_label,
+.cntctfrm_checkbox {
+	padding: 5px 0 0;
+}
+.cntctfrm_input,
+.cntctfrm_select {
+	position: relative;
+}
+.cntctfrm_error_text {
+	color: red;
+	text-align: left;
+}
+#cntctfrm_contact_attachment {
+	margin-bottom:0;
+}
+.cntctfrm_contact_form div {
+	clear: both;
+}

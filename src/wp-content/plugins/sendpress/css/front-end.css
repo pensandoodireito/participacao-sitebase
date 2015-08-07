@@ -1,0 +1,45 @@
+
+/* Copy this css into you're theme to style the SendPress sign up widget. */
+
+/* container for the signup form */
+.sendpress-signup-form{
+	position:relative;
+	}
+	/* labels in the sign up form */
+	.sendpress-signup-form label{
+		display:block;
+		word-wrap: none;
+		padding:0 5px 0 0;
+	}
+	/* input fields in sign up form */
+	.sendpress-signup-form input[type=text]{
+		width: 100%;
+	}
+	/* submit button */
+	.sendpress-submit{
+		margin-top: 20px;
+		display: inline-block !important;
+	}
+	/* element where error messages are displayed */
+	.sendpress-signup-form #error{
+		color:#8B0000;
+		margin:10px 0px;
+		display:none;
+	}
+	/* element where the thank you message shows upon successful submit */
+	.sendpress-signup-form #thanks,
+	.sendpress-signup-form #exists{
+		margin:10px 0px;
+		display:none;
+	}
+	/*Extra fields that only exist if you have SendPress Pro*/
+	.signup-fields-bottom label{
+		/*float:left;*/
+		display:inline;
+	}
+
+	.ajaxloader{
+		margin-left:5px;
+		display:none;
+	}
+

@@ -1,0 +1,919 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*CSS front page*/
+
+.ssb-container {
+  margin: 50px 0;
+  overflow: hidden;
+  padding: 40px 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
+.ssb-share a span.icon {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-size: 100% auto;
+}
+
+.ssb-share a.fb span.icon {
+  background-image: url("fb.png");
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+.ssb-share a.gplus span.icon {
+  background-image: url("gplus.png");
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+
+}
+
+
+
+.ssb-share a.twitter span.icon {
+  background-image: url("twitter.png");
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+.ssb-share a.linkedin span.icon {
+  background-image: url("linkedin.png");
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+.ssb-share a.pinterest span.icon {
+  background-image: url("pinterest.png");
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+.ssb-share a.reddit span.icon {
+  background-image: url("reddit.png");
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+.ssb-share a.email span.icon {
+  background-image: url("email.png");
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+
+.ssb-share a span.count {
+  
+}
+
+
+
+/* ******************* defualt-button ************************* */
+
+.ssb-share .defualt-button-fb,
+.ssb-share .defualt-button-gplus,
+.ssb-share .defualt-button-twitter,
+.ssb-share .defualt-button-linkedin,
+.ssb-share .defualt-button-pinterest,
+.ssb-share .defualt-button-reddit,
+.ssb-share .defualt-button-email {
+  display: inline-block;
+  max-height: 30px;
+  max-width: 80px;
+  overflow: hidden;
+  vertical-align: top;
+  padding: 0 5px;
+}
+
+.ssb-share .defualt-button-gplus {
+  max-width: 60px;
+}
+
+.ssb-share .defualt-button-reddit {
+  max-width: 122px;
+}
+
+.ssb-share .defualt-button-email {
+  background: none repeat scroll 0 0 rgb(221, 221, 221);
+  border-radius: 2px;
+  height: 25px;
+  overflow: hidden;
+}
+.ssb-share .defualt-button-email .icon {
+  background: url("email.png") no-repeat scroll 0 -3px rgba(0, 0, 0, 0);
+  float: left;
+  margin-right: 10px;
+}
+.ssb-share .defualt-button-email a {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+}
+
+
+
+
+/* ******************** defualt-box ************************ */
+
+
+
+.ssb-share .defualt-box-fb,
+.ssb-share .defualt-box-gplus,
+.ssb-share .defualt-box-twitter,
+.ssb-share .defualt-box-linkedin,
+.ssb-share .defualt-box-pinterest,
+.ssb-share .defualt-box-reddit,
+.ssb-share .defualt-box-email
+  {
+  display: inline-block;
+  max-height: 65px;
+  max-width: 60px;
+  overflow: hidden;
+  vertical-align: top;
+  padding: 0 5px;
+}
+.ssb-share .defualt-box-email {
+  background: none repeat scroll 0 0 rgb(221, 221, 221);
+  border-radius: 2px;
+  text-align: center;
+}
+
+.ssb-share .defualt-box-email a {
+  margin: 0 !important;
+  text-decoration: none;
+}
+
+.ssb-share .defualt-box-email a .icon{
+
+}
+
+
+/* ********************** flat ********************** */
+
+.ssb-share.flat {
+  display: inline-block;
+}
+
+.ssb-share.flat .total-count {
+  background: none repeat scroll 0 0 rgb(255, 194, 46);
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  float: left;
+  padding: 0 15px;
+  text-align: center;
+  text-decoration: none;
+  width: auto !important;
+}
+
+.ssb-share.flat a {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  position: relative;
+  vertical-align: top;
+  width: 30px;
+}
+
+
+.ssb-share.flat a.fb {
+  background: none repeat scroll 0 0 #3A589B;
+}
+
+
+.ssb-share.flat a.gplus {
+  background: none repeat scroll 0 0 #DA4735;
+}
+.ssb-share.flat a.twitter {
+  background: none repeat scroll 0 0 #33b1cb;
+}
+.ssb-share.flat a.linkedin {
+  background: none repeat scroll 0 0 #1183a6;
+}
+.ssb-share.flat a.pinterest {
+  background: none repeat scroll 0 0 #CB2028;
+}
+.ssb-share.flat a.reddit {
+  background: none repeat scroll 0 0 #7ccbff;
+}
+.ssb-share.flat a.email {
+  background: none repeat scroll 0 0 #0884f9;
+}
+
+.ssb-share.flat span.count {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+  color: #FFFFFF;
+  visibility:hidden;
+  font-size: 10px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  transition: all 1s ease 0s;
+  width: 30px;
+}
+
+.ssb-share.flat a:hover > span.count{
+	visibility:visible;
+	top: -15px;
+	}
+
+
+
+/* ********************* round *********************** */
+
+.ssb-share.round {
+  display: inline-block;
+  margin-top: 30px;
+}
+.ssb-share.round .total-count {
+  background: none repeat scroll 0 0 rgb(255, 194, 46);
+  border-radius: 0;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  float: left;
+  padding: 0 15px;
+  text-align: center;
+  text-decoration: none;
+  width: auto !important;
+}
+.ssb-share.round a {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  position: relative;
+  vertical-align: top;
+  width: 30px;
+  border-radius: 50%;
+}
+
+
+.ssb-share.round a.fb {
+  background: none repeat scroll 0 0 #3A589B;
+}
+.ssb-share.round a.gplus {
+  background: none repeat scroll 0 0 #DA4735;
+}
+.ssb-share.round a.twitter {
+  background: none repeat scroll 0 0 #33b1cb;
+}
+.ssb-share.round a.linkedin {
+  background: none repeat scroll 0 0 #1183a6;
+}
+.ssb-share.round a.pinterest {
+  background: none repeat scroll 0 0 #CB2028;
+}
+.ssb-share.round a.reddit {
+  background: none repeat scroll 0 0 #7ccbff;
+}
+
+.ssb-share.round a.email {
+  background: none repeat scroll 0 0 #0884f9;
+}
+
+
+
+.ssb-share.round span.count {
+  border-radius: 7px;
+  box-shadow: 0 0 4px -1px #999999;
+  color: #000000;
+  font-size: 10px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: -30px;
+  width: 25px;
+}
+
+
+
+.ssb-share.round span.count { background: #fff; border: 1px solid #868686; }
+.ssb-share.round span.count:after, .ssb-share.round span.count:before { top: 100%; left: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; }
+.ssb-share.round span.count:after { border-color: rgba(255, 255, 255, 0); border-top-color: #fff; border-width: 4px; margin-left: -4px; }
+.ssb-share.round span.count:before { border-color: rgba(134, 134, 134, 0); border-top-color: #868686; border-width: 5px; margin-left: -5px; }
+
+
+
+.ssb-share.round a:hover > span.count{
+
+	top: -25px;
+	}
+
+
+
+
+/* ****************** wide *************** */
+
+
+
+
+
+.ssb-share.wide {
+  display: inline-block;
+}
+.ssb-share.wide .total-count {
+  background: none repeat scroll 0 0 rgb(255, 194, 46);
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  float: left;
+  padding: 0 15px;
+  text-align: center;
+  text-decoration: none;
+  width: auto !important;
+}
+.ssb-share.wide a {
+  background-color: rgb(221, 221, 221);
+  background-repeat: no-repeat;
+  display: inline-block;
+  float: left;
+  height: 30px;
+  margin: 5px 0;
+  overflow: hidden;
+  vertical-align: top;
+  width: 80px;
+}
+
+.ssb-share.wide a.fb {
+  background: none repeat scroll 0 0 #3A589B;
+}
+.ssb-share.wide a.gplus {
+  background: none repeat scroll 0 0 #DA4735;
+}
+.ssb-share.wide a.twitter {
+  background: none repeat scroll 0 0 #33b1cb;
+}
+.ssb-share.wide a.linkedin {
+  background: none repeat scroll 0 0 #1183a6;
+}
+.ssb-share.wide a.pinterest {
+  background: none repeat scroll 0 0 #CB2028;
+}
+.ssb-share.wide a.reddit {
+  background: none repeat scroll 0 0 #7ccbff;
+}
+.ssb-share.wide a.email {
+  background: none repeat scroll 0 0 #0884f9;
+}
+
+
+.ssb-share.wide span.count {
+  color: #FFFFFF;
+  display: inline-block;
+  float: right;
+  height: 30px;
+  padding-right: 7px;
+  padding-top: 3px;
+  text-align: right;
+  width: 30px;
+}
+
+
+
+
+/* ***************** bodyname **************** */
+
+
+
+
+
+.ssb-share.bodyname {
+  display: inline-block;
+}
+
+.ssb-share.bodyname .total-count {
+  background: none repeat scroll 0 0 rgb(255, 194, 46);
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  float: left;
+  padding: 0 15px;
+  text-align: center;
+  text-decoration: none;
+  width: auto !important;
+}
+
+.ssb-share.bodyname a {
+  border-radius: 3px;
+  box-shadow: 0 0 3px 0 #999999;
+  display: inline-block;
+  float: left;
+  font-size: 12px;
+  height: 22px;
+  margin-top: 10px;
+  overflow: hidden;
+  transition: all 1s ease 0s;
+  vertical-align: top;
+  width: 100px;
+}
+
+
+
+
+.ssb-share.bodyname a span {
+  background-size: 100% auto !important;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  height: 22px;
+  vertical-align: top;
+  width: 20px;
+}
+.ssb-share.bodyname a span.body {
+  padding-left: 2px;
+  padding-top: 2px;
+}
+.ssb-share.bodyname a span.count {
+  color: #5f5f5f;
+  float: right;
+  height: 22px;
+  margin-right: 5px;
+  padding-left: 5px;
+  padding-top: 2px;
+
+}
+
+
+.ssb-share.bodyname a.fb {
+  background: url("bodyname/fb.png") no-repeat scroll 0 0 #3A589B;
+}
+.ssb-share.bodyname a.fb span.icon {
+  background: none !important;
+}
+.ssb-share.bodyname a.gplus {
+  background: url("bodyname/gplus.png") no-repeat scroll 0 0 #DA4735;
+}
+.ssb-share.bodyname a.gplus span.icon {
+  background: none !important;
+}
+.ssb-share.bodyname a.twitter {
+  background: url("bodyname/twitter.png") no-repeat scroll 0 0 #33b1cb;
+}
+.ssb-share.bodyname a.twitter span.icon {
+  background: none !important;
+}
+.ssb-share.bodyname a.linkedin {
+  background: url("bodyname/linkedin.png") no-repeat scroll 0 0 #1183a6;
+}
+.ssb-share.bodyname a.linkedin span.icon {
+  background: none !important;
+}
+.ssb-share.bodyname a.pinterest {
+  background: url("bodyname/pinterest.png") no-repeat scroll 0 0 #CB2028;
+}
+.ssb-share.bodyname a.pinterest span.icon {
+  background: none !important;
+}
+.ssb-share.bodyname a.reddit {
+  background: url("bodyname/reddit.png") no-repeat scroll 0 0 #7ccbff;
+}
+.ssb-share.bodyname a.reddit span.icon {
+  background: none !important;
+}
+
+.ssb-share.bodyname a.email {
+  background: url("bodyname/email.png") no-repeat scroll 0 0 #0884f9;
+}
+.ssb-share.bodyname a.email span.icon {
+  background: none !important;
+}
+
+
+
+
+
+.ssb-share.bodyname a:hover{
+	width: 130px;
+	}
+.ssb-share.bodyname a:hover > span.count{
+	color:#fff;
+	}
+
+
+
+/* ****************** packslide *************** */
+
+
+
+
+
+.ssb-share.packslide {
+  display: inline-block;
+}
+
+.ssb-share.packslide .total-count {
+  background: none repeat scroll 0 0 rgb(255, 194, 46);
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  float: left;
+  padding: 0 15px;
+  text-align: center;
+  text-decoration: none;
+  width: auto !important;
+}
+
+.ssb-share.packslide a {
+  border-radius: 3px;
+  box-shadow: 0 0 3px 0 #999999;
+  display: inline-block;
+  float: left;
+  font-size: 12px;
+  height: 22px;
+  margin-top: 10px;
+  overflow: hidden;
+  transition: all 0.5s ease 0s;
+  vertical-align: top;
+  width: 40px;
+}
+
+
+
+
+.ssb-share.packslide a span {
+  color: #FFFFFF;
+  display: inline-block;
+  height: 22px;
+  vertical-align: top;
+}
+.ssb-share.packslide a span.icon {
+  background-size: 100% auto;
+  height: 100%;
+  width: 20px;
+}
+
+
+.ssb-share.packslide a span.body {
+  padding-left: 2px;
+  padding-top: 2px;
+}
+.ssb-share.packslide a span.count {
+  color: #5f5f5f;
+  float: right;
+  height: 22px;
+  margin-right: 5px;
+  padding-left: 5px;
+  padding-top: 2px;
+  visibility:hidden;
+
+}
+
+
+.ssb-share.packslide a.fb {
+  background: url("packslide/fb.png") no-repeat scroll 0 0 #3A589B;
+}
+.ssb-share.packslide a.fb span.icon {
+  background: none !important;
+}
+.ssb-share.packslide a.gplus {
+  background: url("packslide/gplus.png") no-repeat scroll 0 0 #DA4735;
+}
+.ssb-share.packslide a.gplus span.icon {
+  background: none !important;
+}
+.ssb-share.packslide a.twitter {
+  background: url("packslide/twitter.png") no-repeat scroll 0 0 #33b1cb;
+}
+.ssb-share.packslide a.twitter span.icon {
+  background: none !important;
+}
+.ssb-share.packslide a.linkedin {
+  background: url("packslide/linkedin.png") no-repeat scroll 0 0 #1183a6;
+}
+.ssb-share.packslide a.linkedin span.icon {
+  background: none !important;
+}
+.ssb-share.packslide a.pinterest {
+  background: url("packslide/pinterest.png") no-repeat scroll 0 0 #CB2028;
+}
+.ssb-share.packslide a.pinterest span.icon {
+  background: none !important;
+}
+.ssb-share.packslide a.reddit {
+  background: url("packslide/reddit.png") no-repeat scroll 0 0 #7ccbff;
+}
+.ssb-share.packslide a.reddit span.icon {
+  background: none !important;
+}
+
+.ssb-share.packslide a.email {
+  background: url("packslide/email.png") no-repeat scroll 0 0 #0884f9;
+}
+.ssb-share.packslide a.email span.icon {
+  background: none !important;
+}
+
+
+
+
+
+.ssb-share.packslide a:hover{
+	width: 70px;
+	}
+
+
+.ssb-share.packslide a:hover > span.count{
+	visibility:visible;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************** hexa ********************** */
+
+
+
+
+.ssb-share.hexa {
+  display: inline-block;
+}
+.ssb-share.hexa .total-count {
+  background: none repeat scroll 0 0 rgb(255, 194, 46);
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  float: left;
+  padding: 0 15px;
+  text-align: center;
+  text-decoration: none;
+  width: auto !important;
+}
+
+.ssb-share.hexa a {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  position: relative;
+  vertical-align: top;
+  width: 30px;
+}
+
+
+.ssb-share.hexa a.fb {
+  background: none repeat scroll 0 0 #3A589B;
+}
+
+
+
+.ssb-share.hexa a.fb {
+  background: url("hexa/fb.png");
+}
+.ssb-share.hexa a.fb span.icon {
+  background: none !important;
+}
+.ssb-share.hexa a.gplus {
+  background: url("hexa/gplus.png");
+}
+.ssb-share.hexa a.gplus span.icon {
+  background: none !important;
+}
+.ssb-share.hexa a.twitter {
+  background: url("hexa/twitter.png");
+}
+.ssb-share.hexa a.twitter span.icon {
+  background: none !important;
+}
+.ssb-share.hexa a.linkedin {
+  background: url("hexa/linkedin.png");
+}
+.ssb-share.hexa a.linkedin span.icon {
+  background: none !important;
+}
+.ssb-share.hexa a.pinterest {
+  background: url("hexa/pinterest.png");
+}
+.ssb-share.hexa a.pinterest span.icon {
+  background: none !important;
+}
+.ssb-share.hexa a.reddit {
+  background: url("hexa/reddit.png");
+}
+.ssb-share.hexa a.reddit span.icon {
+  background: none !important;
+}
+
+.ssb-share.hexa a.email {
+  background: url("hexa/email.png");
+}
+.ssb-share.hexa a.email span.icon {
+  background: none !important;
+}
+
+
+
+
+.ssb-share.hexa span.count {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+  color: #FFFFFF;
+  visibility:hidden;
+  font-size: 10px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  transition: all 1s ease 0s;
+  width: 30px;
+}
+
+.ssb-share.hexa a:hover > span.count{
+	visibility:visible;
+	top: -15px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ****************** hover-left ************************** */
+
+
+
+
+.ssb-share.hover-left {
+  display: inline-block;
+  left: 0;
+  position: fixed;
+  top: 30%;
+}
+.ssb-share.hover-left .total-count {
+  background: none repeat scroll 0 0 rgb(255, 194, 46);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+.ssb-share.hover-left a {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  position: relative;
+  vertical-align: top;
+  width: 30px;
+}
+
+
+.ssb-share.hover-left a.fb {
+  background: none repeat scroll 0 0 #3A589B;
+}
+
+
+.ssb-share.hover-left a.gplus {
+  background: none repeat scroll 0 0 #DA4735;
+}
+.ssb-share.hover-left a.twitter {
+  background: none repeat scroll 0 0 #33b1cb;
+}
+.ssb-share.hover-left a.linkedin {
+  background: none repeat scroll 0 0 #1183a6;
+}
+.ssb-share.hover-left a.pinterest {
+  background: none repeat scroll 0 0 #CB2028;
+}
+.ssb-share.hover-left a.reddit {
+  background: none repeat scroll 0 0 #7ccbff;
+}
+
+.ssb-share.hover-left a.email {
+  background: none repeat scroll 0 0 #0884f9;
+}
+
+
+.ssb-share.hover-left span.count {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+  color: #FFFFFF;
+  visibility:hidden;
+  font-size: 10px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  transition: all 1s ease 0s;
+  width: 30px;
+}
+
+.ssb-share.hover-left a:hover > span.count{
+	visibility:visible;
+	top: -15px;
+	}
+
+
+
+
+/* ******************hover-right************************** */
+
+
+
+
+.ssb-share.hover-right {
+  display: inline-block;
+  right: 0;
+  position: fixed;
+  top: 30%;
+}
+.ssb-share.hover-right .total-count {
+  background: none repeat scroll 0 0 rgb(255, 194, 46);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+}
+
+.ssb-share.hover-right a {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  position: relative;
+  vertical-align: top;
+  width: 30px;
+}
+
+
+.ssb-share.hover-right a.fb {
+  background: none repeat scroll 0 0 #3A589B;
+}
+
+
+.ssb-share.hover-right a.gplus {
+  background: none repeat scroll 0 0 #DA4735;
+}
+.ssb-share.hover-right a.twitter {
+  background: none repeat scroll 0 0 #33b1cb;
+}
+.ssb-share.hover-right a.linkedin {
+  background: none repeat scroll 0 0 #1183a6;
+}
+.ssb-share.hover-right a.pinterest {
+  background: none repeat scroll 0 0 #CB2028;
+}
+.ssb-share.hover-right a.reddit {
+  background: none repeat scroll 0 0 #7ccbff;
+}
+.ssb-share.hover-right a.email {
+  background: none repeat scroll 0 0 #0884f9;
+}
+
+.ssb-share.hover-right span.count {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+  color: #FFFFFF;
+  visibility:hidden;
+  font-size: 10px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  transition: all 1s ease 0s;
+  width: 30px;
+}
+
+.ssb-share.hover-right a:hover > span.count{
+	visibility:visible;
+	top: -15px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
