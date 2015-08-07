@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Admin CSS*/
+
+.ssb-settings{}
+
+.ssb-settings .ssb_social_sites_domain{}
+.ssb-settings .ssb_social_sites_domain_remove, .ssb-settings .ssb_social_sites_domain_icon {
+  border: 1px solid rgb(221, 221, 221);
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 5px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.ssb-settings .ssb_social_sites_domain_icon {
+  background: url("empty-icon.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 20px;
+  width: 11px;
+  vertical-align: top;
+}
+
+.ssb-settings .ssb_social_sites_domain_icon {
+background-size: 100% auto !important;
+}
