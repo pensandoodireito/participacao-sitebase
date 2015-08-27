@@ -9,6 +9,8 @@ fi
 
 function delete_tag {
 
+	echo "Apagando tag de $1"
+
 	git fetch --all
 
 	git tag -d $1
@@ -43,9 +45,9 @@ cd ../debatepublico-tema
 
 delete_tag $1 debatepublico-tema
 
-cd ../intercambio-tema
+cd ../blog-tema
 
-delete_tag $1 intercambio-tema
+delete_tag $1 blog-tema
 
 cd ../../plugins/pensandoodireito-network-functions
 

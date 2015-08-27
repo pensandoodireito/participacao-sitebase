@@ -8,6 +8,8 @@ fi
 
 function gerar_tag_master {
 
+	echo "Gerando tag para $1"
+
 	branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')	
 	
 	git stash
@@ -53,9 +55,9 @@ cd ../debatepublico-tema
 
 gerar_tag_master debatepublico-tema $1
 
-cd ../intercambio-tema
+cd ../blog-tema
 
-gerar_tag_master intercambio-tema $1
+gerar_tag_master blog-tema $1
 
 cd ../../plugins/pensandoodireito-network-functions
 

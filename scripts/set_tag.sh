@@ -38,7 +38,7 @@ cd ../debatepublico-tema
 
 fetch_settag $1
 
-cd ../intercambio-tema
+cd ../blog-tema
 
 fetch_settag $1
 
