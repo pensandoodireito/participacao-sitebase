@@ -2,6 +2,8 @@
 
 function update_master {
 
+	echo "Atualizando $1"
+
 	branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')	
 	
 	git stash
