@@ -20,7 +20,7 @@ function gerar_tag_master {
 
 	git tag -a $2 -m "Tag para sprint $2. Visualize o changelog no github em https://github.com/pensandoodireito/participacao-sitebase"
 	
-	git push git@github.com:pensandoodireito/$1.git --tags
+	git push https://github.com/pensandoodireito/$1.git --tags
 
 	git push origin master
 
