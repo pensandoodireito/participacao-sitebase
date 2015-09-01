@@ -56,6 +56,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.provision "shell", inline: $updateServices,
             run: "always"
 
+    # Use 'vagrant plugin install vagrant-triggers' to install the trigger module
     config.trigger.after [:provision, :up, :reload] do
         if FFI::Platform::IS_LINUX
             system("sudo iptables -t nat -A OUTPUT -o lo -p tcp --dport 80 -j REDIRECT --to-port 8080")
