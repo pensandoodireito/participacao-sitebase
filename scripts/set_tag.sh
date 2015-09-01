@@ -53,3 +53,9 @@ fetch_settag $1
 cd ../delibera
 
 fetch_settag $1
+
+echo "Rodando o Gulp para 'compilar' os arquivos Less"
+
+cd ../../
+
+gulp
