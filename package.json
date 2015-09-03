@@ -1,0 +1,38 @@
+{
+  "name": "participacao-sitebase",
+  "version": "1.0.0",
+  "description": "Projeto base - Pensando o Direito",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-less": "^3.0.3",
+    "gulp-util": "^3.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pensandoodireito/participacao-sitebase.git"
+  },
+  "keywords": [
+    "participacao",
+    "mj",
+    "debate"
+  ],
+  "contributors": [
+    "Marco Antonio Konopacki <marcoamarelo@gmail.com>",
+    "Thiago Sousa <thiago.sousa.lopes@gmail.com>",
+    "Theoziran Lima <theoziran.silva@basis.com.br>",
+    "Josafá Filho <josafafilho15@gmail.com>"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pensandoodireito/participacao-sitebase/issues"
+  },
+  "homepage": "https://github.com/pensandoodireito/participacao-sitebase#readme"
+}

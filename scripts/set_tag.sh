@@ -58,4 +58,4 @@ echo "Rodando o Gulp para 'compilar' os arquivos Less"
 
 cd ../../
 
-gulp
+./node_modules/.bin/gulp
