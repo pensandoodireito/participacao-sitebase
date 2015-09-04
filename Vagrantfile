@@ -7,12 +7,13 @@ require 'ffi'
 VAGRANTFILE_API_VERSION = "2"
 
 $firstTimeScript = <<SCRIPT
-npm install --save-dev gulp gulp-less gulp-minify-css gulp-sourcemaps gulp-util gulp-plumber
-
 cd /vagrant && composer update && rm -r /var/www/public && ln -s /vagrant/src /var/www/public
 
 cp /vagrant/config/wp-config-vagrant.php /vagrant/src/wp-config.php
 cp /vagrant/config/htaccess-vagrant /vagrant/src/.htaccess
+
+npm install
+./node_modules/.bin/gulp
 
 service apache2 start
 
@@ -36,9 +37,6 @@ ln -s /vagrant/src/ /var/www/public
 chmod 777 /vagrant/src/wp-content/
 
 service apache2 start
-
-cd /vagrant
-gulp
 
 SCRIPT
 
