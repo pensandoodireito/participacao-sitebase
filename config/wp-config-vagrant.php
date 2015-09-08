@@ -1,5 +1,5 @@
 <?php
-/** 
+/**
  * As configurações básicas do WordPress.
  *
  * Esse arquivo contém as seguintes configurações: configurações de MySQL, Prefixo de Tabelas,
@@ -71,6 +71,22 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', true);
 
+define('SMTP_PORT', '25');
+
+define('SMTP_HOST', 'localhost');
+
+define('SMTP_FROM', 'pensandoodireito@mj.gov.br');
+
+define('SMTP_FROMNAME', 'Plataforma de Debate Público Pensando o Direito');
+
+define('BITLY_LOGIN', '');
+
+define('BITLY_APIKEY', '');
+
+define('ANOTATION_SERVER', '');
+
+define('USE_CUSTOM_SIGNUP', true);
+
 /* Multisite */
 define( 'WP_ALLOW_MULTISITE', true );
 
@@ -85,7 +101,7 @@ define('BLOG_ID_CURRENT_SITE', 1);
 
 /** Caminho absoluto para o diretório WordPress. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
-	
+    define('ABSPATH', dirname(__FILE__) . '/');
+
 /** Configura as variáveis do WordPress e arquivos inclusos. */
 require_once(ABSPATH . 'wp-settings.php');
