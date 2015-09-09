@@ -21,6 +21,10 @@
         },
         {
             "type": "git",
+            "url": "https://github.com/johnpbloch/wordpress"
+        },
+        {
+            "type": "git",
             "url": "https://github.com/pensandoodireito/marcocivil-tema"
         },
         {
@@ -59,6 +63,7 @@
     "require": {
         "php": ">=5.4.0",
         "wordpress": "4.1.1",
+        "johnpbloch/wordpress": "4.3",
         "pensandoodireito/marcocivil-tema" : "dev-master",
         "pensandoodireito/dadospessoais-tema" : "dev-master",
         "pensandoodireito/pensandoodireito-tema" : "dev-master",
@@ -73,17 +78,9 @@
         "wpackagist-plugin/contact-form-plugin": "3.89",
         "wpackagist-plugin/sendpress": ">=1.1.7.21",
         "wpackagist-plugin/social-share-button": "2.1",
-        "wpackagist-plugin/events-manager": "5.5.7.1",
-        "fancyguy/webroot-installer": "1.0.0",
-        "composer/installers": "~1.0"
+        "wpackagist-plugin/events-manager": "5.5.7.1"
     },
     "extra": {
-        "webroot-dir": "src",
-        "webroot-package": "wordpress",
-        "installer-paths": {
-            "src/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
-            "src/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-            "src/wp-content/themes/{$name}/": ["type:wordpress-theme"]
-        }
+        "wordpress-install-dir": "src"
     }
 }
