@@ -48,6 +48,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.network "forwarded_port", guest: 80, host: 8080
     # Port de debug do xdebug
     config.vm.network "forwarded_port", guest: 9000, host: 9000
+   config.vm.network "private_network", type: "dhcp", auto_config: false
 
     config.vm.provision "shell", inline: $firstTimeScript
 
