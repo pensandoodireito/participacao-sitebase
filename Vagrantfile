@@ -24,7 +24,8 @@ mysql --user=root --password=root -h 127.0.0.1 -e 'CREATE DATABASE participacao'
 cd /vagrant/db
 bunzip2 db.sql.bz2
 mysql --user=root --password=root -h 127.0.0.1 participacao < /vagrant/db/db.sql
-mysql --user=root --password=root -h 127.0.0.1 participacao < /vagrant/db/provision.sql
+mysql --user=root --password=root -h 127.0.0.1 -e "GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root'"
+mysql --user=root --password=root -h 127.0.0.1 -e "FLUSH PRIVILEGES"
 
 sed -i -e 's/bind\-/\#bind\-/g' /etc/mysql/my.cnf
 
