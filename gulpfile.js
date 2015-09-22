@@ -6,7 +6,8 @@ var gutil = require('gulp-util');
 var plumber = require('gulp-plumber');
 var path = require('path');
 
-var temas = ['blog','dadospessoais','debatepublico','marcocivil','pensandoodireito'];
+var temas = ['themes/blog-tema','themes/dadospessoais-tema','themes/debatepublico-tema','themes/marcocivil-tema',
+	'themes/pensandoodireito-tema','plugins/wp-side-comments/includes'];
 
 var plumberHandler = function (err) {
             		console.log(err);
@@ -15,7 +16,7 @@ var plumberHandler = function (err) {
 
 temas.forEach(function(item){
 		gulp.task(item, function(){
-			return gulp.src('src/wp-content/themes/'+item+'-tema/css/less/*.less')
+			return gulp.src('src/wp-content/'+item+'/css/less/*.less')
 			.pipe(plumber({
         		errorHandler: plumberHandler
     		}))
@@ -23,7 +24,7 @@ temas.forEach(function(item){
 			.pipe(sourcemaps.init())
 		    .pipe(minifyCss())
 		    .pipe(sourcemaps.write())
-		    .pipe(gulp.dest('src/wp-content/themes/'+item+'-tema/css'));
+		    .pipe(gulp.dest('src/wp-content/'+item+'/css'));
 	});
 });
 
