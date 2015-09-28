@@ -37,4 +37,6 @@ $ git remote set-url origin git@github.com:USERNAME/REPOSITORY2.git
 
 Dessa forma, você poderá fazer todas as alterações necessárias no seu respositório e depois solicitar um pull request para o projeto.
 
+É importante, que antes de enviar sua contribuição, você leia o guia [Padrões de Codificação e Estilo](https://github.com/pensandoodireito/participacao-sitebase/wiki/Padr%C3%B5es-de-Codifica%C3%A7%C3%A3o-e-Estilo).
+
 Em caso de dúvidas ou contribuições, escreva para marco.konopacki@mj.gov.br
