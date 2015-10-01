@@ -7,36 +7,41 @@ require 'ffi'
 VAGRANTFILE_API_VERSION = "2"
 
 $firstTimeScript = <<SCRIPT
-cd /vagrant && composer update && rm -r /var/www/public && ln -s /vagrant/src /var/www/public
-
-cp /vagrant/config/wp-config-vagrant.php /vagrant/src/wp-config.php
-cp /vagrant/config/htaccess-vagrant /vagrant/src/.htaccess
-
+cd /vagrant
+composer update
+cp config/wp-config-vagrant.php src/wp-config.php
+cp config/htaccess-vagrant src/.htaccess
+cp config/file-remote.php src/file-remote.php
+cp config/index-vagrant.php src/index.php
+rm -f src/wp/index.php
 npm install
 ./node_modules/.bin/gulp
-
+apt-get install -y subversion
 service apache2 start
-
 service mysql start
 
 mysql --user=root --password=root -h 127.0.0.1 -e 'drop database participacao'
 mysql --user=root --password=root -h 127.0.0.1 -e 'create database participacao'
+
 cd /vagrant/db
 bunzip2 db.sql.bz2
 mysql --user=root --password=root -h 127.0.0.1 participacao < /vagrant/db/db.sql
 bzip2 -9 db.sql
 
+cd /vagrant/src
+ln -s wp/wp-admin wp-admin
+
 SCRIPT
 
 $updateServices = <<SCRIPT
 
-service mysql start
+service mysql restart
 
 rm -r /var/www/public
 ln -s /vagrant/src/ /var/www/public
 chmod 777 /vagrant/src/wp-content/
 
-service apache2 start
+service apache2 restart
 
 SCRIPT
 
