@@ -30,6 +30,7 @@ bzip2 -9 db.sql
 
 cd /vagrant/src
 ln -s wp/wp-admin wp-admin
+ln -s wp/wp-includes wp-includes
 
 SCRIPT
 
@@ -51,6 +52,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.box = "scotch/box"
     config.vm.network "forwarded_port", guest: 80, host: 80
     config.vm.network "forwarded_port", guest: 80, host: 8080
+    config.vm.network "forwarded_port", guest: 3306, host: 3306
     # Port de debug do xdebug
     config.vm.network "forwarded_port", guest: 9000, host: 9000
     config.vm.network "private_network", ip: "192.168.33.10"
@@ -66,6 +68,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
             system("sudo iptables -t nat -A OUTPUT -o lo -p tcp --dport 80 -j REDIRECT --to-port 8080")
         elsif FFI::Platform::IS_MAC
             system('echo "
+                rdr pass on lo0 inet proto tcp from any to 127.0.0.1 port 3306 -> 127.0.0.1 port 3306
                 rdr pass on lo0 inet proto tcp from any to 127.0.0.1 port 80 -> 127.0.0.1 port 8080
                 rdr pass on lo0 inet proto tcp from any to 127.0.0.1 port 443 -> 127.0.0.1 port 8443
                 " | sudo pfctl -ef - > /dev/null 2>&1;')
