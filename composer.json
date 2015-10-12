@@ -68,5 +68,11 @@
             "src/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
             "src/wp-content/themes/{$name}/": ["type:wordpress-theme"]
         }
+    },
+    "scripts": {
+      "pre-install-cmd": "/bin/bash ./pre-update.sh",
+      "pre-update-cmd": "/bin/bash ./pre-update.sh",
+      "post-update-cmd": "/bin/bash ./post-update.sh",
+      "post-update-cmd": "/bin/bash ./post-update.sh"
     }
 }

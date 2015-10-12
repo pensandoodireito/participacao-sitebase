@@ -9,11 +9,6 @@ VAGRANTFILE_API_VERSION = "2"
 $firstTimeScript = <<SCRIPT
 cd /vagrant
 composer update
-cp config/wp-config-vagrant.php src/wp-config.php
-cp config/htaccess-vagrant src/.htaccess
-cp config/file-remote.php src/file-remote.php
-cp config/index-vagrant.php src/index.php
-rm -f src/wp/index.php
 npm install
 ./node_modules/.bin/gulp
 apt-get install -y subversion
@@ -27,10 +22,6 @@ cd /vagrant/db
 bunzip2 db.sql.bz2
 mysql --user=root --password=root -h 127.0.0.1 participacao < /vagrant/db/db.sql
 bzip2 -9 db.sql
-
-cd /vagrant/src
-ln -s wp/wp-admin wp-admin
-ln -s wp/wp-includes wp-includes
 
 SCRIPT
 
