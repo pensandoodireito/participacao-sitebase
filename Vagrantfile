@@ -15,8 +15,8 @@ apt-get install -y subversion
 service apache2 start
 service mysql start
 
-mysql --user=root --password=root -h 127.0.0.1 -e 'drop database participacao'
-mysql --user=root --password=root -h 127.0.0.1 -e 'create database participacao'
+mysql --user=root --password=root -h 127.0.0.1 -e 'DROP DATABASE IF EXISTS participacao'
+mysql --user=root --password=root -h 127.0.0.1 -e 'CREATE DATABASE participacao'
 
 cd /vagrant/db
 bunzip2 db.sql.bz2
