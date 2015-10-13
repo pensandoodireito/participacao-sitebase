@@ -73,6 +73,6 @@
       "pre-install-cmd": "/bin/bash ./pre-update.sh",
       "pre-update-cmd": "/bin/bash ./pre-update.sh",
       "post-update-cmd": "/bin/bash ./post-update.sh",
-      "post-update-cmd": "/bin/bash ./post-update.sh"
+      "post-install-cmd": "/bin/bash ./post-update.sh"
     }
 }
