@@ -7,12 +7,14 @@ require 'ffi'
 VAGRANTFILE_API_VERSION = "2"
 
 $firstTimeScript = <<SCRIPT
+apt-get update
+apt-get install -y subversion
+composer self-update
+
 cd /vagrant
 composer update
 npm install
 ./node_modules/.bin/gulp
-apt-get update
-apt-get install -y subversion
 service apache2 start
 service mysql start
 
