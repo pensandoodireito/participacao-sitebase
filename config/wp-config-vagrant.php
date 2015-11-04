@@ -97,11 +97,14 @@ define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
+define( 'WP_PLUGIN_DIR', dirname(__FILE__) . '/wp-content/plugins' );
+define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content' );
+
 /* Isto é tudo, pode parar de editar! :) */
 
 /** Caminho absoluto para o diretório WordPress. */
 if ( !defined('ABSPATH') )
-    define('ABSPATH', dirname(__FILE__) . '/');
+    define('ABSPATH', dirname(__FILE__) . '/wp/');
 
 /** Configura as variáveis do WordPress e arquivos inclusos. */
 require_once(ABSPATH . 'wp-settings.php');
