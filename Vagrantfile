@@ -11,6 +11,7 @@ apt-get update
 apt-get install -y subversion
 composer self-update
 
+export COMPOSER_PROCESS_TIMEOUT=2000
 cd /vagrant
 composer update
 npm install
