@@ -85,7 +85,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         api.vm.network "private_network", type: "dhcp"
         api.vm.network "public_network"
 
-        api.vm.provision "shell", inline: $apiScript, run: "always"
+        api.vm.provision "shell", inline: $apiScript
     end
 
     # Use 'vagrant plugin install vagrant-triggers' to install the trigger module
