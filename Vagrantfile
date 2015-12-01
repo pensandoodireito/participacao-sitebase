@@ -41,21 +41,52 @@ service apache2 restart
 
 SCRIPT
 
+$apiScript = <<SCRIPT
+
+echo 'API SERVER SETUP...'
+
+curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+chmod +x wp-cli.phar
+sudo mv wp-cli.phar /usr/local/bin/wp
+
+cd /vagrant/src
+wp search-replace --allow-root 'localhost' 'api-pensando'
+
+mysql --user=root --password=root -h 127.0.0.1 participacao < /vagrant/db/api.sql
+
+SCRIPT
+
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     # Every Vagrant virtual environment requires a box to build off of.
     config.vm.box = "scotch/box"
+
+    # port forwarding
     config.vm.network "forwarded_port", guest: 80, host: 80
     config.vm.network "forwarded_port", guest: 80, host: 8080
     config.vm.network "forwarded_port", guest: 3306, host: 3306
-    # Port de debug do xdebug
-    config.vm.network "forwarded_port", guest: 9000, host: 9000
-    config.vm.network "private_network", ip: "192.168.33.10"
-    
-    config.vm.provision "shell", inline: $firstTimeScript
+    config.vm.network "forwarded_port", guest: 9000, host: 9000 # Port de debug do xdebug
 
-    config.vm.provision "shell", inline: $updateServices,
-            run: "always"
+    #scripting
+    config.vm.provision "shell", inline: $firstTimeScript
+    config.vm.provision "shell", inline: $updateServices, run: "always"
+
+    #specific web machine settings
+    config.vm.define "web", primary: true do |web|
+        web.vm.hostname = "dev-pensando"
+
+        web.vm.network "private_network", ip: "192.168.33.10"
+    end
+
+    #specific api machine settings
+    config.vm.define "api", autostart: false do |api|
+        api.vm.hostname = "api-pensando"
+
+        api.vm.network "private_network", type: "dhcp"
+        api.vm.network "public_network"
+
+        api.vm.provision "shell", inline: $apiScript
+    end
 
     # Use 'vagrant plugin install vagrant-triggers' to install the trigger module
     config.trigger.after [:provision, :up, :reload] do
@@ -80,7 +111,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         system("echo '==> Removing Port Forwarding'")
     end
 
-    #config.vm.provider :virtualbox do |vb|
-    #  vb.gui = true
-    #end
+#     config.vm.provider :virtualbox do |vb|
+#         vb.gui = true
+#     end
 end
