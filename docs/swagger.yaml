@@ -1,0 +1,100 @@
+swagger: '2.0'
+info:
+  title: Pensando o Direito - API
+  description: API de comunicação com a plataforma Pensando o Direito
+  version: 0.1.0
+host: pensando.mj.gov.br
+schemes:
+  - http
+basePath: /wp-json
+produces:
+  - application/json
+paths:
+  /publicacoes:
+    get:
+      summary: Publicações existentes no portal Pensando o Direito
+      description: "O endpoint de publicações retorna informações das Publicações\ngeradas a partir do lançamento de editais para a contratação de equipes \nde pesquisa - academia, instituições de pesquisa, ONG’s entre outros – \npara a realização de estudos em temas de interesse da Secretaria.\n"
+      parameters:
+        - name: page
+          in: query
+          description: Componente de paginação. Um número positivo representando qual página quer se obter.
+          required: false
+          type: number
+          format: int
+      tags:
+        - Publicações
+      responses:
+        '200':
+          description: Um array de publicações
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Publicacao'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /publicacoes/{publicacaoID}:
+    get:
+      operationId: getPublicacao
+      summary: Recupera uma publicação específica
+      parameters:
+        - name: publicacaoID
+          required: true
+          in: path
+          description: ID da publicação
+          type: number
+          format: int
+      tags:
+        - Publicações
+      responses:
+        '200':
+          description: A publicação especificada
+          schema:
+            $ref: '#/definitions/Publicacao'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+definitions:
+  Publicacao:
+    type: object
+    properties:
+      id:
+        type: number
+        format: int
+        description: Identificador único da publicação
+      volume:
+        type: string
+        description: Volume da publicação.
+      date:
+        type: string
+        description: Data de disponibilização da publicação. Formato dd/mm/yyyy
+      coordenacao:
+        type: string
+        description: Nomes da equipe responsável pela coordenação da publicação
+      title:
+        type: string
+        description: Título da publicação
+      subtitle:
+        type: string
+        description: Subtítulo da publicação
+      content:
+        type: string
+        description: Conteúdo da publicação
+      link:
+        type: string
+        description: Link para acesso a publicação no portal Pensando o Direito
+      slug:
+        type: string
+        description: identificador único gerado a partir do titulo da publicação
+      url:
+        type: string
+        description: URL de download da publicação
+  Error:
+    type: object
+    properties:
+      code:
+        type: string
+      message:
+        type: string
