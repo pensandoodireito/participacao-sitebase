@@ -39,6 +39,10 @@
     {
       "type": "git",
       "url": "https://github.com/pensandoodireito/blog-tema"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/pensandoodireito/anticorrupcao-tema"
     }
   ],
   "require": {
@@ -49,6 +53,7 @@
     "pensandoodireito/pensandoodireito-tema": "dev-master",
     "pensandoodireito/participacao-tema": "dev-master",
     "pensandoodireito/debatepublico-tema": "dev-master",
+    "pensandoodireito/anticorrupcao-tema": "dev-master",
     "pensandoodireito/pensandoodireito-network-functions": "dev-master",
     "pensandoodireito/blog-tema": "dev-master",
     "pensandoodireito/wp-side-comments": "dev-master",
