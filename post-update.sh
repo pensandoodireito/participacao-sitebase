@@ -7,4 +7,4 @@ cp config/index-vagrant.php src/index.php
 rm -f src/wp/index.php
 ln -s wp/wp-admin src/wp-admin
 ln -s wp/wp-includes src/wp-includes
-ln -s ../docs docs
+ln -s ../docs src/docs
