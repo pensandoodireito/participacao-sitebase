@@ -91,6 +91,9 @@ definitions:
       url:
         type: string
         description: URL de download da publicação
+      file_size:
+        type: number
+        description: Tamanho do arquivo de publicação em bytes
   Error:
     type: object
     properties:
