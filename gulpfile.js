@@ -6,8 +6,15 @@ var gutil = require('gulp-util');
 var plumber = require('gulp-plumber');
 var path = require('path');
 
-var temas = ['themes/blog-tema', 'themes/dadospessoais-tema', 'themes/debatepublico-tema', 'themes/marcocivil-tema',
-    'themes/pensandoodireito-tema', 'plugins/wp-side-comments/includes'];
+var temas = [
+    'themes/anticorrupcao-tema',
+    'themes/blog-tema',
+    'themes/dadospessoais-tema',
+    'themes/debatepublico-tema',
+    'themes/marcocivil-tema',
+    'themes/pensandoodireito-tema',
+    'plugins/wp-side-comments/includes'
+];
 
 var plumberHandler = function (err) {
     console.log(err);
