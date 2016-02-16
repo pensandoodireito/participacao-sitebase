@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var less = require('gulp-less');
-var minifyCss = require('gulp-minify-css');
+var cssnano = require('gulp-cssnano');
 var sourcemaps = require('gulp-sourcemaps');
 var gutil = require('gulp-util');
 var plumber = require('gulp-plumber');
@@ -29,7 +29,7 @@ temas.forEach(function (item) {
             }))
             .pipe(less())
             .pipe(sourcemaps.init())
-            .pipe(minifyCss())
+            .pipe(cssnano())
             .pipe(sourcemaps.write())
             .pipe(gulp.dest('src/wp-content/' + item + '/css'));
     });
@@ -44,7 +44,7 @@ gulp.task('default', temas, function () {
             paths: ['src/wp-content/themes/participacao-tema/css/less']
         }))
         .pipe(sourcemaps.init())
-        .pipe(minifyCss())
+        .pipe(cssnano())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('src/wp-content/themes/participacao-tema/css'));
 
@@ -58,7 +58,7 @@ gulp.task('default', temas, function () {
             ]
         }))
         .pipe(sourcemaps.init())
-        .pipe(minifyCss())
+        .pipe(cssnano())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('src/wp-content/themes/participacao-tema/css'));
 });
